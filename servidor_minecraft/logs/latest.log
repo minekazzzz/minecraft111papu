@@ -1,0 +1,975 @@
+[20Apr2025 18:45:03.034] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[20Apr2025 18:45:03.043] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
+[20Apr2025 18:45:03.444] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[20Apr2025 18:45:03.512] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/minecraft111papu/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[20Apr2025 18:45:03.966] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/minecraft111papu/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[20Apr2025 18:45:03.968] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/minecraft111papu/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[20Apr2025 18:45:03.971] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/minecraft111papu/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[20Apr2025 18:45:03.977] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/minecraft111papu/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[20Apr2025 18:45:04.205] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[20Apr2025 18:45:07.120] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[20Apr2025 18:45:07.205] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[20Apr2025 18:45:07.318] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[20Apr2025 18:45:19.558] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[20Apr2025 18:45:19.591] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[20Apr2025 18:45:19.591] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[20Apr2025 18:45:20.575] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 8.3.
+[20Apr2025 18:45:23.804] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/minecraft111papu/servidor_minecraft/config/travelersbackpack-common.toml is not correct. Correcting
+[20Apr2025 18:45:23.805] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20Apr2025 18:45:23.807] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.enableLoot was corrected from null to its default, true. 
+[20Apr2025 18:45:23.807] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.enableVillagerTrade was corrected from null to its default, true. 
+[20Apr2025 18:45:23.810] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/minecraft111papu/servidor_minecraft/config/knocker.toml is not correct. Correcting
+[20Apr2025 18:45:23.811] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server and client was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20Apr2025 18:45:23.812] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server and client.spawn_rate was corrected from null to its default, common. 
+[20Apr2025 18:45:23.812] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server and client.respect_difficulty was corrected from null to its default, true. 
+[20Apr2025 18:45:23.813] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server and client.spawn_sound was corrected from null to its default, false. 
+[20Apr2025 18:45:23.855] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[20Apr2025 18:45:23.884] [main/INFO] [journeymap/]: Initializing Packet Registries
+[20Apr2025 18:45:23.985] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[20Apr2025 18:45:23.987] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[20Apr2025 18:45:23.989] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[20Apr2025 18:45:23.991] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[20Apr2025 18:45:24.201] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[20Apr2025 18:45:24.202] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[20Apr2025 18:45:24.351] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[20Apr2025 18:45:24.351] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[20Apr2025 18:45:24.407] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 9.1.36 Target: null
+[20Apr2025 18:45:28.758] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20Apr2025 18:45:28.860] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/minecraft111papu/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23133!/assets/.mcassetsroot' uses unexpected schema
+[20Apr2025 18:45:28.862] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/minecraft111papu/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23133!/data/.mcassetsroot' uses unexpected schema
+[20Apr2025 18:45:33.529] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:simplyswords:grant_book_on_first_join
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23138!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23138!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[20Apr2025 18:45:34.893] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:arphex:entities/long_legs}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[20Apr2025 18:45:34.895] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:arphex:entities/silverfish_spectre}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[20Apr2025 18:45:34.896] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:arphex:entities/millipede_marauder}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[20Apr2025 18:45:35.026] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[20Apr2025 18:45:35.303] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1509 advancements
+[20Apr2025 18:45:36.652] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[20Apr2025 18:45:36.653] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[20Apr2025 18:45:36.654] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[20Apr2025 18:45:36.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[20Apr2025 18:45:37.048] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[20Apr2025 18:45:37.093] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[20Apr2025 18:45:37.279] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20Apr2025 18:45:37.280] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[20Apr2025 18:45:37.280] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20Apr2025 18:45:37.281] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[20Apr2025 18:45:37.314] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/endofherobrine-server.toml is not correct. Correcting
+[20Apr2025 18:45:37.315] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for The End of Herobrine Mod was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20Apr2025 18:45:37.316] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for The End of Herobrine Mod.experimental was corrected from null to its default, false. 
+[20Apr2025 18:45:37.316] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for The End of Herobrine Mod.legacyStructures was corrected from null to its default, false. 
+[20Apr2025 18:45:37.317] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for The End of Herobrine Mod.progressiveWrath was corrected from null to its default, true. 
+[20Apr2025 18:45:37.317] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for The End of Herobrine Mod.mobPossession was corrected from null to its default, true. 
+[20Apr2025 18:45:37.318] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for The End of Herobrine Mod.revertPossession was corrected from null to its default, true. 
+[20Apr2025 18:45:37.318] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for The End of Herobrine Mod.remainPossessedTicks was corrected from null to its default, 12000. 
+[20Apr2025 18:45:37.319] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for The End of Herobrine Mod.blacklistPossession was corrected from null to its default, . 
+[20Apr2025 18:45:37.320] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for The End of Herobrine Mod.spawnCooldown was corrected from null to its default, 3600. 
+[20Apr2025 18:45:37.321] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for The End of Herobrine Mod.spawnChance was corrected from null to its default, 10. 
+[20Apr2025 18:45:37.322] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common configs for The End of Herobrine Mod.spawnBuilder was corrected from null to its default, true. 
+[20Apr2025 18:45:37.331] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/cave_dweller-server.toml is not correct. Correcting
+[20Apr2025 18:45:37.332] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20Apr2025 18:45:37.333] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Spawn was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20Apr2025 18:45:37.334] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Spawn.can_spawn_min was corrected from null to its default, 300. 
+[20Apr2025 18:45:37.336] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Spawn.can_spawn_max was corrected from null to its default, 600. 
+[20Apr2025 18:45:37.337] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Spawn.can_spawn_cooldown_chance was corrected from null to its default, 0.4. 
+[20Apr2025 18:45:37.339] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Spawn.can_spawn_cooldown was corrected from null to its default, 1200. 
+[20Apr2025 18:45:37.340] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Noise was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20Apr2025 18:45:37.342] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Noise.reset_noise_min was corrected from null to its default, 240. 
+[20Apr2025 18:45:37.343] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Noise.reset_noise_max was corrected from null to its default, 360. 
+[20Apr2025 18:45:37.345] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Leave was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20Apr2025 18:45:37.345] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Leave.time_until_leave was corrected from null to its default, 300. 
+[20Apr2025 18:45:37.346] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Leave.time_until_leave_chase was corrected from null to its default, 30. 
+[20Apr2025 18:45:37.348] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.surface_timer_multiplier was corrected from null to its default, 1.0. 
+[20Apr2025 18:45:37.349] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20Apr2025 18:45:37.349] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.spawn_chance_per_tick was corrected from null to its default, 0.005. 
+[20Apr2025 18:45:37.349] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.spawn_height was corrected from null to its default, 40. 
+[20Apr2025 18:45:37.350] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.allow_surface_spawn was corrected from null to its default, false. 
+[20Apr2025 18:45:37.350] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.sky_light_level was corrected from null to its default, 8. 
+[20Apr2025 18:45:37.352] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.block_light_level was corrected from null to its default, 15. 
+[20Apr2025 18:45:37.353] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.maximum_amount was corrected from null to its default, 5. 
+[20Apr2025 18:45:37.353] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.spawn_distance was corrected from null to its default, 16. 
+[20Apr2025 18:45:37.353] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.check_path_to_spawn was corrected from null to its default, true. 
+[20Apr2025 18:45:37.353] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Dimensions was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20Apr2025 18:45:37.354] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Dimensions.dimension_whitelist was corrected from null to its default, [minecraft:overworld]. 
+[20Apr2025 18:45:37.356] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Biomes was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20Apr2025 18:45:37.356] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Biomes.override_biome_datapack_config was corrected from null to its default, false. 
+[20Apr2025 18:45:37.357] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Biomes.surface_biomes_is_whitelist was corrected from null to its default, true. 
+[20Apr2025 18:45:37.357] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Biomes.surface_biomes was corrected from null to its default, []. 
+[20Apr2025 18:45:37.359] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20Apr2025 18:45:37.359] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.spotting_range was corrected from null to its default, 60. 
+[20Apr2025 18:45:37.359] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.can_climb was corrected from null to its default, true. 
+[20Apr2025 18:45:37.360] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.can_break_door was corrected from null to its default, true. 
+[20Apr2025 18:45:37.360] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.break_door_time was corrected from null to its default, 3. 
+[20Apr2025 18:45:37.360] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.allow_riding was corrected from null to its default, false. 
+[20Apr2025 18:45:37.360] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.target_invisible was corrected from null to its default, true. 
+[20Apr2025 18:45:37.365] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20Apr2025 18:45:37.365] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes.maximum_health was corrected from null to its default, 60.0. 
+[20Apr2025 18:45:37.366] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes.attack_damage was corrected from null to its default, 6.0. 
+[20Apr2025 18:45:37.366] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes.attack_speed was corrected from null to its default, 0.35. 
+[20Apr2025 18:45:37.367] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes.movement_speed was corrected from null to its default, 0.5. 
+[20Apr2025 18:45:37.367] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes.depth_strider_bonus was corrected from null to its default, 1.5. 
+[20Apr2025 18:45:37.369] [Thread-2/INFO] [de.cadentem.cave_dweller.CaveDweller/]: Server configuration has been reloaded
+[20Apr2025 18:45:37.371] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/jei-server.toml is not correct. Correcting
+[20Apr2025 18:45:37.378] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20Apr2025 18:45:37.380] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForOp was corrected from null to its default, true. 
+[20Apr2025 18:45:37.383] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForCreative was corrected from null to its default, true. 
+[20Apr2025 18:45:37.385] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForGive was corrected from null to its default, false. 
+[20Apr2025 18:45:37.391] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
+[20Apr2025 18:45:37.393] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20Apr2025 18:45:37.394] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[20Apr2025 18:45:37.395] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[20Apr2025 18:45:37.395] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[20Apr2025 18:45:37.397] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[20Apr2025 18:45:37.399] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[20Apr2025 18:45:37.400] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[20Apr2025 18:45:37.401] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
+[20Apr2025 18:45:37.407] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/journeymap-server.toml is not correct. Correcting
+[20Apr2025 18:45:37.410] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20Apr2025 18:45:37.411] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins.opAccess was corrected from null to its default, true. 
+[20Apr2025 18:45:37.412] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins.serverAdmins was corrected from null to its default, [mysticdrew, 79f597fe-2877-4ecb-acdf-8c58cc1854ca]. 
+[20Apr2025 18:45:37.416] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[20Apr2025 18:45:37.416] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[20Apr2025 18:45:37.418] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[20Apr2025 18:45:37.420] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/travelersbackpack-server.toml is not correct. Correcting
+[20Apr2025 18:45:37.421] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20Apr2025 18:45:37.422] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20Apr2025 18:45:37.423] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.leatherTierBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20Apr2025 18:45:37.423] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.leatherTierBackpack.inventorySlotCount was corrected from null to its default, 27. 
+[20Apr2025 18:45:37.425] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.leatherTierBackpack.upgradeSlotCount was corrected from null to its default, 2. 
+[20Apr2025 18:45:37.426] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.leatherTierBackpack.toolSlotCount was corrected from null to its default, 2. 
+[20Apr2025 18:45:37.427] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.leatherTierBackpack.tankCapacity was corrected from null to its default, 1000. 
+[20Apr2025 18:45:37.428] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.ironTierBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20Apr2025 18:45:37.429] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.ironTierBackpack.inventorySlotCount was corrected from null to its default, 45. 
+[20Apr2025 18:45:37.430] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.ironTierBackpack.upgradeSlotCount was corrected from null to its default, 3. 
+[20Apr2025 18:45:37.431] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.ironTierBackpack.toolSlotCount was corrected from null to its default, 3. 
+[20Apr2025 18:45:37.432] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.ironTierBackpack.tankCapacity was corrected from null to its default, 1000. 
+[20Apr2025 18:45:37.433] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.goldTierBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20Apr2025 18:45:37.434] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.goldTierBackpack.inventorySlotCount was corrected from null to its default, 63. 
+[20Apr2025 18:45:37.435] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.goldTierBackpack.upgradeSlotCount was corrected from null to its default, 4. 
+[20Apr2025 18:45:37.436] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.goldTierBackpack.toolSlotCount was corrected from null to its default, 4. 
+[20Apr2025 18:45:37.436] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.goldTierBackpack.tankCapacity was corrected from null to its default, 1000. 
+[20Apr2025 18:45:37.437] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.diamondTierBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20Apr2025 18:45:37.439] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.diamondTierBackpack.inventorySlotCount was corrected from null to its default, 81. 
+[20Apr2025 18:45:37.439] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.diamondTierBackpack.upgradeSlotCount was corrected from null to its default, 5. 
+[20Apr2025 18:45:37.439] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.diamondTierBackpack.toolSlotCount was corrected from null to its default, 5. 
+[20Apr2025 18:45:37.440] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.diamondTierBackpack.tankCapacity was corrected from null to its default, 1000. 
+[20Apr2025 18:45:37.440] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.netheriteTierBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20Apr2025 18:45:37.441] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.netheriteTierBackpack.inventorySlotCount was corrected from null to its default, 99. 
+[20Apr2025 18:45:37.441] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.netheriteTierBackpack.upgradeSlotCount was corrected from null to its default, 6. 
+[20Apr2025 18:45:37.442] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.netheriteTierBackpack.toolSlotCount was corrected from null to its default, 6. 
+[20Apr2025 18:45:37.443] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.netheriteTierBackpack.tankCapacity was corrected from null to its default, 1000. 
+[20Apr2025 18:45:37.444] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.rightClickEquip was corrected from null to its default, true. 
+[20Apr2025 18:45:37.445] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.rightClickUnequip was corrected from null to its default, false. 
+[20Apr2025 18:45:37.446] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.allowOnlyEquippedBackpack was corrected from null to its default, false. 
+[20Apr2025 18:45:37.446] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.allowOpeningFromSlot was corrected from null to its default, false. 
+[20Apr2025 18:45:37.447] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.invulnerableBackpack was corrected from null to its default, true. 
+[20Apr2025 18:45:37.448] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.toolSlotsAcceptEverything was corrected from null to its default, false. 
+[20Apr2025 18:45:37.449] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.toolSlotsAcceptableItems was corrected from null to its default, []. 
+[20Apr2025 18:45:37.450] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.blacklistedItems was corrected from null to its default, []. 
+[20Apr2025 18:45:37.450] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.allowShulkerBoxes was corrected from null to its default, false. 
+[20Apr2025 18:45:37.451] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.voidProtection was corrected from null to its default, true. 
+[20Apr2025 18:45:37.452] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.backpackDeathPlace was corrected from null to its default, true. 
+[20Apr2025 18:45:37.453] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.backpackForceDeathPlace was corrected from null to its default, false. 
+[20Apr2025 18:45:37.453] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.quickSleepingBag was corrected from null to its default, true. 
+[20Apr2025 18:45:37.454] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.enableSleepingBagSpawnPoint was corrected from null to its default, false. 
+[20Apr2025 18:45:37.454] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackSettings.backSlotIntegration was corrected from null to its default, true. 
+[20Apr2025 18:45:37.455] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20Apr2025 18:45:37.456] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.enableTanksUpgrade was corrected from null to its default, true. 
+[20Apr2025 18:45:37.456] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.enableCraftingUpgrade was corrected from null to its default, true. 
+[20Apr2025 18:45:37.457] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.enableFurnaceUpgrade was corrected from null to its default, true. 
+[20Apr2025 18:45:37.458] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.enableSmokerUpgrade was corrected from null to its default, true. 
+[20Apr2025 18:45:37.458] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.enableBlastFurnaceUpgrade was corrected from null to its default, true. 
+[20Apr2025 18:45:37.459] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.pickupUpgradeSettings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20Apr2025 18:45:37.459] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.pickupUpgradeSettings.enablePickupUpgrade was corrected from null to its default, true. 
+[20Apr2025 18:45:37.460] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.pickupUpgradeSettings.filterSlotCount was corrected from null to its default, 9. 
+[20Apr2025 18:45:37.460] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.enableJukeboxUpgrade was corrected from null to its default, true. 
+[20Apr2025 18:45:37.461] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.magnetUpgradeSettings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20Apr2025 18:45:37.462] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.magnetUpgradeSettings.enableMagnetUpgrade was corrected from null to its default, true. 
+[20Apr2025 18:45:37.462] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.magnetUpgradeSettings.filterSlotCount was corrected from null to its default, 9. 
+[20Apr2025 18:45:37.463] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.magnetUpgradeSettings.pullRange was corrected from null to its default, 5. 
+[20Apr2025 18:45:37.464] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.magnetUpgradeSettings.tickRate was corrected from null to its default, 10. 
+[20Apr2025 18:45:37.464] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.feedingUpgradeSettings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20Apr2025 18:45:37.465] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.feedingUpgradeSettings.enableFeedingUpgrade was corrected from null to its default, true. 
+[20Apr2025 18:45:37.465] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.feedingUpgradeSettings.filterSlotCount was corrected from null to its default, 9. 
+[20Apr2025 18:45:37.466] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.feedingUpgradeSettings.tickRate was corrected from null to its default, 100. 
+[20Apr2025 18:45:37.466] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.voidUpgradeSettings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20Apr2025 18:45:37.467] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.voidUpgradeSettings.enableVoidUpgrade was corrected from null to its default, true. 
+[20Apr2025 18:45:37.467] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackUpgrades.voidUpgradeSettings.filterSlotCount was corrected from null to its default, 9. 
+[20Apr2025 18:45:37.467] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.world was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20Apr2025 18:45:37.467] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.world.spawnEntitiesWithBackpack was corrected from null to its default, true. 
+[20Apr2025 18:45:37.468] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.world.chance was corrected from null to its default, 0.005. 
+[20Apr2025 18:45:37.471] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.world.possibleOverworldEntityTypes was corrected from null to its default, [minecraft:zombie, minecraft:skeleton, minecraft:enderman]. 
+[20Apr2025 18:45:37.471] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.world.possibleNetherEntityTypes was corrected from null to its default, [minecraft:wither_skeleton, minecraft:piglin]. 
+[20Apr2025 18:45:37.472] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.world.overworldBackpacks was corrected from null to its default, [travelersbackpack:standard, travelersbackpack:diamond, travelersbackpack:gold, travelersbackpack:emerald, travelersbackpack:iron, travelersbackpack:lapis, travelersbackpack:redstone, travelersbackpack:coal, travelersbackpack:bookshelf, travelersbackpack:sandstone, travelersbackpack:snow, travelersbackpack:sponge, travelersbackpack:cake, travelersbackpack:cactus, travelersbackpack:hay, travelersbackpack:melon, travelersbackpack:pumpkin, travelersbackpack:creeper, travelersbackpack:enderman, travelersbackpack:skeleton, travelersbackpack:spider, travelersbackpack:bee, travelersbackpack:wolf, travelersbackpack:fox, travelersbackpack:ocelot, travelersbackpack:horse, travelersbackpack:cow, travelersbackpack:pig, travelersbackpack:sheep, travelersbackpack:chicken, travelersbackpack:squid]. 
+[20Apr2025 18:45:37.474] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.world.netherBackpacks was corrected from null to its default, [travelersbackpack:quartz, travelersbackpack:nether, travelersbackpack:blaze, travelersbackpack:ghast, travelersbackpack:magma_cube, travelersbackpack:wither]. 
+[20Apr2025 18:45:37.475] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackAbilities was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20Apr2025 18:45:37.476] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackAbilities.enableBackpackAbilities was corrected from null to its default, true. 
+[20Apr2025 18:45:37.477] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackAbilities.forceAbilityEnabled was corrected from null to its default, true. 
+[20Apr2025 18:45:37.478] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackAbilities.allowedAbilities was corrected from null to its default, [travelersbackpack:netherite, travelersbackpack:diamond, travelersbackpack:gold, travelersbackpack:emerald, travelersbackpack:iron, travelersbackpack:lapis, travelersbackpack:redstone, travelersbackpack:bookshelf, travelersbackpack:sponge, travelersbackpack:cake, travelersbackpack:cactus, travelersbackpack:melon, travelersbackpack:pumpkin, travelersbackpack:creeper, travelersbackpack:dragon, travelersbackpack:enderman, travelersbackpack:blaze, travelersbackpack:ghast, travelersbackpack:magma_cube, travelersbackpack:spider, travelersbackpack:wither, travelersbackpack:warden, travelersbackpack:bat, travelersbackpack:bee, travelersbackpack:ocelot, travelersbackpack:cow, travelersbackpack:chicken, travelersbackpack:squid, travelersbackpack:hay, travelersbackpack:fox]. 
+[20Apr2025 18:45:37.480] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackAbilities.backpackEffects was corrected from null to its default, [travelersbackpack:bat, minecraft:night_vision, 260, 300, 0, travelersbackpack:magma_cube, minecraft:fire_resistance, 260, 300, 0, travelersbackpack:squid, minecraft:water_breathing, 260, 300, 0, travelersbackpack:dragon, minecraft:regeneration, 260, 300, 0, travelersbackpack:dragon, minecraft:strength, 250, 290, 0, travelersbackpack:quartz, minecraft:haste, 260, 300, 0, travelersbackpack:fox, minecraft:jump_boost, 260, 300, 0]. 
+[20Apr2025 18:45:37.480] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.backpackAbilities.cooldowns was corrected from null to its default, [travelersbackpack:creeper, 1200, 1800, travelersbackpack:cow, 480, 540, travelersbackpack:chicken, 360, 600, travelersbackpack:cake, 360, 480, travelersbackpack:melon, 120, 480]. 
+[20Apr2025 18:45:37.481] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.slownessDebuff was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20Apr2025 18:45:37.481] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.slownessDebuff.tooManyBackpacksSlowness was corrected from null to its default, false. 
+[20Apr2025 18:45:37.484] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.slownessDebuff.maxNumberOfBackpacks was corrected from null to its default, 3. 
+[20Apr2025 18:45:37.485] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.slownessDebuff.slownessPerExcessedBackpack was corrected from null to its default, 1.0. 
+[20Apr2025 18:45:37.618] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[20Apr2025 18:45:52.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[20Apr2025 18:45:53.892] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:45:53.893] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:45:53.899] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:45:53.993] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:45:54.519] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:45:54.985] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:45:55.516] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:45:55.989] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:45:56.524] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:45:57.015] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:45:57.492] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:45:58.059] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:45:58.486] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:45:59.032] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:45:59.486] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:00.026] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:00.507] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:00.995] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:01.553] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:02.134] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:02.502] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:03.003] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:03.495] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:03.996] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:04.486] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:04.997] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:05.515] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:05.997] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:06.494] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:07.026] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:07.497] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:08.043] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:08.513] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:08.988] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:09.523] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:09.996] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:10.485] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:10.988] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:11.520] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:12.018] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:12.493] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:12.990] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:13.488] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:14.004] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:14.487] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:14.992] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:15.492] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:15.986] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:16.493] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:17.002] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:17.485] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:17.986] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:18.508] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:18.988] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:19.487] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:19.992] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:20.484] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:21.003] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:21.487] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:22.013] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:22.488] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:23.008] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:23.537] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:23.988] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:24.519] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:25.012] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:25.530] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:26.001] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:26.526] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:26.985] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:27.487] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:27.989] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:28.496] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:29.032] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:29.525] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:29.993] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:30.494] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:30.990] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:31.490] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:32.000] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:32.517] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:33.018] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:33.490] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:34.021] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:34.504] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:34.988] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:35.486] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:36.002] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:36.485] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:37.014] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:37.486] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:38.007] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:38.519] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:39.001] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:39.508] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:40.012] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:40.515] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:40.985] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:41.486] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:41.997] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:42.609] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:43.001] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:43.531] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:44.005] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Apr2025 18:46:45.894] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[20Apr2025 18:46:45.896] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[20Apr2025 18:46:45.899] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[20Apr2025 18:46:45.990] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
+[20Apr2025 18:46:48.298] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 55815 ms
+[20Apr2025 18:46:48.299] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (70.988s)! For help, type "help"
+[20Apr2025 18:46:48.343] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[20Apr2025 18:47:07.301] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: kazuuuuuuuu[/127.74.250.175:45767] logged in with entity id 148 at (1.5, 75.0, -9.5)
+[20Apr2025 18:47:07.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu joined the game
+[20Apr2025 18:48:04.196] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity boh:deer but it was marked as removed already
+[20Apr2025 18:50:39.004] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: arehuh[/127.141.40.228:59435] logged in with entity id 899 at (3.5, 75.0, -8.5)
+[20Apr2025 18:50:39.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: arehuh joined the game
+[20Apr2025 18:51:56.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: arehuh has made the advancement [Stone Age]
+[20Apr2025 18:52:06.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: arehuh has made the advancement [Getting an Upgrade]
+[20Apr2025 18:52:13.223] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ractercito[/127.249.32.193:41141] logged in with entity id 1198 at (9.5, 90.0, 9.5)
+[20Apr2025 18:52:13.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ractercito joined the game
+[20Apr2025 18:53:01.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ractercito has made the advancement [Stone Age]
+[20Apr2025 18:53:08.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ractercito has made the advancement [Getting an Upgrade]
+[20Apr2025 18:53:24.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu has made the advancement [Stone Age]
+[20Apr2025 18:53:34.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu has made the advancement [Getting an Upgrade]
+[20Apr2025 18:55:14.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm comming for you
+[20Apr2025 18:55:26.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu has made the advancement [First Death]
+[20Apr2025 18:55:27.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu died
+[20Apr2025 18:56:11.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made kazuuuuuuuu a server operator
+[20Apr2025 18:56:20.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kazuuuuuuuu: Gamerule keepInventory is now set to: true]
+[20Apr2025 18:56:42.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm comming for you
+[20Apr2025 18:56:51.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu died
+[20Apr2025 18:58:47.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: arehuh has made the advancement [Best Friends Forever]
+[20Apr2025 18:58:56.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ractercito has made the advancement [Monster Hunter]
+[20Apr2025 18:59:13.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm comming for you
+[20Apr2025 18:59:19.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: arehuh has made the advancement [Monster Hunter]
+[20Apr2025 18:59:56.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu has made the advancement [Best Friends Forever]
+[20Apr2025 19:00:47.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu was slain by Spider Moth
+[20Apr2025 19:01:06.548] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[20Apr2025 19:01:19.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu hit the ground too hard
+[20Apr2025 19:01:29.047] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[20Apr2025 19:01:32.849] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[20Apr2025 19:01:38.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu hit the ground too hard
+[20Apr2025 19:02:57.496] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity arphex:moth_shadow_clone but it was marked as removed already
+[20Apr2025 19:03:19.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ractercito has made the advancement [Acquire Hardware]
+[20Apr2025 19:03:33.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: arehuh has made the advancement [Acquire Hardware]
+[20Apr2025 19:04:35.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ractercito has made the advancement [Best Friends Forever]
+[20Apr2025 19:05:05.253] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Cannot invoke "net.minecraft.world.entity.Entity.m_20185_()" because "knocker" is null
+	Index: 9
+	Listeners:
+		0: HIGH
+		1: ASM: class dev.architectury.event.forge.EventHandlerImplCommon event(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		2: NORMAL
+		3: ASM: class net.mcreator.thebloodmimicer.procedures.GiftProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		4: ASM: class net.mcreator.thebloodmimicer.procedures.FollowingProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		5: ASM: class net.mcreator.thebloodmimicer.procedures.DeathProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		6: ASM: class net.mcreator.thebloodmimicer.procedures.CreepyGiftProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		7: ASM: class net.mcreator.thebloodmimicer.procedures.BloodMimicerOnEntityTickUpdateProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		8: ASM: com.lgow.endofherobrine.event.WrathHandler@24c074e2 wrathAdvancement(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		9: ASM: class net.mcreator.theknocker.procedures.RandomspawnProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		10: ASM: class net.mcreator.theknocker.procedures.PlayertickProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		11: ASM: class net.mcreator.theknocker.procedures.NightCounterProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		12: ASM: class net.mcreator.theknocker.procedures.CansleepProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		13: ASM: class net.mcreator.boh.procedures.TickSlenderProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		14: ASM: class net.mcreator.boh.procedures.TickInBackroomsProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		15: ASM: class net.mcreator.boh.procedures.TeleportbenProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		16: ASM: class net.mcreator.boh.procedures.TeleportSadakoProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		17: ASM: class net.mcreator.boh.procedures.SummonBrineProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		18: ASM: class net.mcreator.boh.procedures.SlenderInfluenceProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		19: ASM: class net.mcreator.boh.procedures.PlayerSetHideAndSeekProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		20: ASM: class net.mcreator.boh.procedures.PlayerFixStaticProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		21: ASM: class net.mcreator.boh.procedures.OverlayFacehuggerAppearProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		22: ASM: class net.mcreator.boh.procedures.NotinInventoryHeartProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		23: ASM: class net.mcreator.boh.procedures.MyersInProximityProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		24: ASM: class net.mcreator.boh.procedures.LookAtCognitoTVProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		25: ASM: class net.mcreator.boh.procedures.LeaveCogniitoProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		26: ASM: class net.mcreator.boh.procedures.EquipAGWOBProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		27: ASM: class net.mcreator.boh.procedures.ChasedByExeProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		28: ASM: class net.mcreator.boh.procedures.ChaseThemeProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		29: ASM: class net.mcreator.boh.procedures.ChaseMyersProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		30: ASM: class net.mcreator.boh.procedures.CartoonCatChaseProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		31: ASM: class net.mcreator.boh.procedures.BloodRainProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		32: ASM: class net.mcreator.boh.init.ItemAnimationFactory animatedItems(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		33: ASM: class net.mcreator.boh.init.ArmorAnimationFactory animatedArmors(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		34: ASM: class net.arphex.world.inventory.SuperBackpackMenu onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		35: ASM: class com.tiviacz.travelersbackpack.handlers.NeoForgeEventHandler playerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		36: ASM: class net.arphex.procedures.GameModeDetectorProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+		37: ASM: class net.arphex.procedures.DimensionTickProcedure onPlayerTick(Lnet/minecraftforge/event/TickEvent$PlayerTickEvent;)V
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity.m_20185_()" because "knocker" is null
+	at TRANSFORMER/the_knocker@1.4.0/net.mcreator.theknocker.procedures.SpawnknockerProcedure.execute(SpawnknockerProcedure.java:68)
+	at TRANSFORMER/the_knocker@1.4.0/net.mcreator.theknocker.procedures.RandomeventProcedure.execute(RandomeventProcedure.java:23)
+	at TRANSFORMER/the_knocker@1.4.0/net.mcreator.theknocker.procedures.RandomspawnProcedure.execute(RandomspawnProcedure.java:74)
+	at TRANSFORMER/the_knocker@1.4.0/net.mcreator.theknocker.procedures.RandomspawnProcedure.onPlayerTick(RandomspawnProcedure.java:32)
+	at TRANSFORMER/the_knocker@1.4.0/net.mcreator.theknocker.procedures.__RandomspawnProcedure_onPlayerTick_PlayerTickEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.3.7/net.minecraftforge.event.ForgeEventFactory.onPlayerPostTick(ForgeEventFactory.java:920)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.entity.player.Player.m_8119_(Player.java:285)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayer.m_9240_(ServerPlayer.java:467)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_9933_(ServerGamePacketListenerImpl.java:262)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.Connection.m_129483_(Connection.java:263)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerConnectionListener.m_9721_(ServerConnectionListener.java:142)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:907)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[20Apr2025 19:05:05.292] [Server thread/WARN] [net.minecraft.server.network.ServerConnectionListener/]: Failed to handle packet for /127.141.40.228:59435
+net.minecraft.ReportedException: Ticking player
+	at net.minecraft.server.level.ServerPlayer.m_9240_(ServerPlayer.java:530) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_9933_(ServerGamePacketListenerImpl.java:262) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.network.Connection.m_129483_(Connection.java:263) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.server.network.ServerConnectionListener.m_9721_(ServerConnectionListener.java:142) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:907) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity.m_20185_()" because "knocker" is null
+	at net.mcreator.theknocker.procedures.SpawnknockerProcedure.execute(SpawnknockerProcedure.java:68) ~[the_knocker-1.4.0-forge-1.20.1.jar%23130!/:?]
+	at net.mcreator.theknocker.procedures.RandomeventProcedure.execute(RandomeventProcedure.java:23) ~[the_knocker-1.4.0-forge-1.20.1.jar%23130!/:?]
+	at net.mcreator.theknocker.procedures.RandomspawnProcedure.execute(RandomspawnProcedure.java:74) ~[the_knocker-1.4.0-forge-1.20.1.jar%23130!/:?]
+	at net.mcreator.theknocker.procedures.RandomspawnProcedure.onPlayerTick(RandomspawnProcedure.java:32) ~[the_knocker-1.4.0-forge-1.20.1.jar%23130!/:?]
+	at net.mcreator.theknocker.procedures.__RandomspawnProcedure_onPlayerTick_PlayerTickEvent.invoke(.dynamic) ~[the_knocker-1.4.0-forge-1.20.1.jar%23130!/:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.event.ForgeEventFactory.onPlayerPostTick(ForgeEventFactory.java:920) ~[forge-1.20.1-47.3.7-universal.jar%23138!/:?]
+	at net.minecraft.world.entity.player.Player.m_8119_(Player.java:285) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	at net.minecraft.server.level.ServerPlayer.m_9240_(ServerPlayer.java:467) ~[server-1.20.1-20230612.114412-srg.jar%23133!/:?]
+	... 9 more
+[20Apr2025 19:05:05.332] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: arehuh lost connection: Internal server error
+[20Apr2025 19:05:05.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: arehuh left the game
+[20Apr2025 19:05:13.266] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: arehuh[/127.141.40.228:35253] logged in with entity id 5106 at (184.28965011846574, 80.0, 252.5977852662721)
+[20Apr2025 19:05:13.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: arehuh joined the game
+[20Apr2025 19:05:14.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu has made the advancement [Monster Hunter]
+[20Apr2025 19:05:37.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu was doomed to fall by Spider
+[20Apr2025 19:06:08.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: arehuh was slain by Spider Flat
+[20Apr2025 19:06:23.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kazuuuuuuuu: Teleported arehuh to Ractercito]
+[20Apr2025 19:06:30.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kazuuuuuuuu: Teleported kazuuuuuuuu to Ractercito]
+[20Apr2025 19:08:39.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kazuuuuuuuu> me rompiste el prepucio
+[20Apr2025 19:09:22.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  I have a surprise ! ,arehuh
+[20Apr2025 19:09:35.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu has made the advancement [I Fell Into The Trap]
+[20Apr2025 19:09:40.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm comming for you
+[20Apr2025 19:09:50.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu died
+[20Apr2025 19:09:50.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uh oh! Bad decision, kazuuuuuuuu
+[20Apr2025 19:10:24.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <The Paper message>I'm not dangerous I just want to be friends
+[20Apr2025 19:13:25.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm comming for you
+[20Apr2025 19:13:58.146] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=40, y=95, z=88}
+[20Apr2025 19:15:04.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: arehuh went up in flames
+[20Apr2025 19:15:17.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kazuuuuuuuu: Teleported arehuh to Ractercito]
+[20Apr2025 19:15:54.000] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: arehuh lost connection: Disconnected
+[20Apr2025 19:15:54.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: arehuh left the game
+[20Apr2025 19:16:19.615] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Hqr1n[/127.217.147.10:56247] logged in with entity id 8284 at (5.5, 80.0, 4.5)
+[20Apr2025 19:16:19.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n joined the game
+[20Apr2025 19:17:34.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kazuuuuuuuu: Gamerule playersSleepingPercentage is now set to: 1]
+[20Apr2025 19:18:52.392] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-15, y=75, z=-19} BlockPos{x=-14, y=75, z=-16}
+[20Apr2025 19:18:52.622] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-15, y=75, z=-19} BlockPos{x=-14, y=75, z=-16}
+[20Apr2025 19:18:52.723] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-15, y=75, z=-19} BlockPos{x=-14, y=75, z=-16}
+[20Apr2025 19:18:56.890] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-14, y=75, z=-19} BlockPos{x=-14, y=75, z=-16}
+[20Apr2025 19:18:58.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kazuuuuuuuu: Teleported Hqr1n to kazuuuuuuuu]
+[20Apr2025 19:20:03.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n has made the advancement [Ice Bucket Challenge]
+[20Apr2025 19:20:22.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kazuuuuuuuu: Teleported Hqr1n to kazuuuuuuuu]
+[20Apr2025 19:20:34.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n has made the advancement [Best Friends Forever]
+[20Apr2025 19:20:36.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n was slain by Zombie
+[20Apr2025 19:20:57.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kazuuuuuuuu: Teleported Hqr1n to kazuuuuuuuu]
+[20Apr2025 19:21:48.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm comming for you
+[20Apr2025 19:22:01.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm comming for you
+[20Apr2025 19:22:12.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kazuuuuuuuu: Teleported Ractercito to kazuuuuuuuu]
+[20Apr2025 19:22:32.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu died
+[20Apr2025 19:22:43.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kazuuuuuuuu: Teleported kazuuuuuuuu to Ractercito]
+[20Apr2025 19:23:05.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kazuuuuuuuu> la rusa
+[20Apr2025 19:23:07.294] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=-1531, y=65, z=791}
+[20Apr2025 19:23:37.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu has made the advancement [Sweet Dreams]
+[20Apr2025 19:23:45.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu was slain by Vampire
+[20Apr2025 19:24:03.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu has made the advancement [Whait, Its Not Real ?]
+[20Apr2025 19:24:31.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm comming for you
+[20Apr2025 19:24:45.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu died
+[20Apr2025 19:24:54.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ractercito has made the advancement [Take Aim]
+[20Apr2025 19:25:00.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n has made the advancement [Stone Age]
+[20Apr2025 19:25:10.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu was slain by Jason Voorhees
+[20Apr2025 19:25:51.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n has made the advancement [Getting an Upgrade]
+[20Apr2025 19:26:42.130] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: arehuh[/127.141.40.228:58243] logged in with entity id 14966 at (-196.72494832341795, 76.0, 36.880786017085526)
+[20Apr2025 19:26:42.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: arehuh joined the game
+[20Apr2025 19:27:09.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kazuuuuuuuu: Teleported arehuh to kazuuuuuuuu]
+[20Apr2025 19:27:09.511] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity boh:herobrine but it was marked as removed already
+[20Apr2025 19:27:27.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  I have a surprise ! ,arehuh
+[20Apr2025 19:27:58.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ractercito has made the advancement [Not Today, Thank You]
+[20Apr2025 19:27:59.032] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1453, y=66, z=819} BlockPos{x=-1452, y=65, z=820}
+[20Apr2025 19:30:10.998] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/5621, l='ServerLevel[world]', x=-3.15, y=96.00, z=14.70] died, message: 'Villager withered away whilst fighting Radioactive Terror'
+[20Apr2025 19:30:27.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ractercito has made the advancement [Isn't It Iron Pick]
+[20Apr2025 19:32:15.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ractercito has made the advancement [Suit Up]
+[20Apr2025 19:32:46.694] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=-1520, y=68, z=746}
+[20Apr2025 19:32:59.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kazuuuuuuuu: Teleported Ractercito to arehuh]
+[20Apr2025 19:33:59.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <arehuh> -1460, 814, 29
+[20Apr2025 19:34:16.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ractercito has made the advancement [Hot Stuff]
+[20Apr2025 19:34:29.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kazuuuuuuuu: Teleported kazuuuuuuuu to arehuh]
+[20Apr2025 19:34:46.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: arehuh has made the advancement [Sweet Dreams]
+[20Apr2025 19:35:01.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <arehuh> asdasdadadadadadasdad
+[20Apr2025 19:35:06.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kazuuuuuuuu> sexoooo
+[20Apr2025 19:35:13.095] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity boh:deer but it was marked as removed already
+[20Apr2025 19:35:36.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu has made the advancement [Acquire Hardware]
+[20Apr2025 19:35:51.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm comming for you
+[20Apr2025 19:36:01.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm comming for you
+[20Apr2025 19:36:05.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu has made the advancement [Isn't It Iron Pick]
+[20Apr2025 19:36:38.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n has made the advancement [Acquire Hardware]
+[20Apr2025 19:36:55.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm comming for you
+[20Apr2025 19:37:10.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ractercito has made the advancement [Diamonds!]
+[20Apr2025 19:37:40.557] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hqr1n lost connection: Disconnected
+[20Apr2025 19:37:40.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n left the game
+[20Apr2025 19:38:07.478] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Hqr1n[/127.217.147.10:46651] logged in with entity id 18215 at (-1506.4192456337096, 66.9375, 801.0210453418276)
+[20Apr2025 19:38:07.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n joined the game
+[20Apr2025 19:38:42.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n has made the advancement [Isn't It Iron Pick]
+[20Apr2025 19:39:18.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kazuuuuuuuu: Made arehuh a server operator]
+[20Apr2025 19:39:22.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  I have a surprise ! ,kazuuuuuuuu
+[20Apr2025 19:39:28.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm comming for you
+[20Apr2025 19:39:38.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [arehuh: Teleported arehuh to Ractercito]
+[20Apr2025 19:39:48.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kazuuuuuuuu: Made Ractercito a server operator]
+[20Apr2025 19:40:07.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu died
+[20Apr2025 19:40:07.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uh oh! Bad decision, kazuuuuuuuu
+[20Apr2025 19:41:14.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: arehuh has made the advancement [Isn't It Iron Pick]
+[20Apr2025 19:41:17.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: arehuh has made the advancement [Diamonds!]
+[20Apr2025 19:44:10.397] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity boh:deer but it was marked as removed already
+[20Apr2025 19:44:21.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [arehuh: Teleported Ractercito to arehuh]
+[20Apr2025 19:45:16.744] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: BUILDER spawned at BlockPos{x=-1686, y=68, z=826}
+[20Apr2025 19:45:27.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [arehuh: Teleported Ractercito to arehuh]
+[20Apr2025 19:45:34.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kazuuuuuuuu: Made Hqr1n a server operator]
+[20Apr2025 19:46:26.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [arehuh: Teleported arehuh to Hqr1n]
+[20Apr2025 19:46:31.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [arehuh: Teleported arehuh to kazuuuuuuuu]
+[20Apr2025 19:46:48.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ractercito has made the advancement [Sweet Dreams]
+[20Apr2025 19:46:48.845] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity boh:siren_head but it was marked as removed already
+[20Apr2025 19:47:26.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n has made the advancement [Suit Up]
+[20Apr2025 19:48:17.711] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hqr1n lost connection: Disconnected
+[20Apr2025 19:48:17.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n left the game
+[20Apr2025 19:49:10.467] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Hqr1n[/127.217.147.10:38693] logged in with entity id 21708 at (-1650.699999988079, -2.0, 851.6247514640091)
+[20Apr2025 19:49:10.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n joined the game
+[20Apr2025 19:50:05.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm comming for you
+[20Apr2025 19:50:15.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n was slain by Goatman
+[20Apr2025 19:50:25.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [arehuh: Teleported arehuh to Hqr1n]
+[20Apr2025 19:50:34.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [arehuh: Teleported arehuh to kazuuuuuuuu]
+[20Apr2025 19:50:43.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Hqr1n: Teleported Hqr1n to kazuuuuuuuu]
+[20Apr2025 19:51:20.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu has made the advancement [Diamonds!]
+[20Apr2025 19:51:25.705] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hqr1n lost connection: Timed out
+[20Apr2025 19:51:25.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n left the game
+[20Apr2025 19:51:46.521] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Hqr1n[/127.217.147.10:37077] logged in with entity id 22797 at (-1592.760196243951, -11.0, 867.9673870096184)
+[20Apr2025 19:51:46.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n joined the game
+[20Apr2025 19:52:04.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n has made the advancement [Monster Hunter]
+[20Apr2025 19:52:06.621] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity boh:herobrine but it was marked as removed already
+[20Apr2025 19:52:20.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm comming for you
+[20Apr2025 19:52:20.933] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity boh:herobrine but it was marked as removed already
+[20Apr2025 19:52:59.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kazuuuuuuuu> cumeate en ivan
+[20Apr2025 19:53:37.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm comming for you
+[20Apr2025 19:53:53.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  I have a surprise ! ,arehuh
+[20Apr2025 19:54:01.806] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hqr1n lost connection: Timed out
+[20Apr2025 19:54:01.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n left the game
+[20Apr2025 19:54:58.717] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Hqr1n[/127.217.147.10:50439] logged in with entity id 24119 at (-1594.4576002371732, -10.0, 850.1243532549322)
+[20Apr2025 19:54:58.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n joined the game
+[20Apr2025 19:55:53.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n has made the advancement [Diamonds!]
+[20Apr2025 19:57:12.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu fell from a high place
+[20Apr2025 19:57:13.966] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hqr1n lost connection: Timed out
+[20Apr2025 19:57:13.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n left the game
+[20Apr2025 19:58:01.879] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Hqr1n[/127.217.147.10:51875] logged in with entity id 25637 at (-1614.699999988079, -9.0, 822.8830893375573)
+[20Apr2025 19:58:01.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n joined the game
+[20Apr2025 19:58:09.878] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager PosVillager['Possessed Villager'/25609, l='ServerLevel[world]', x=-1466.30, y=49.00, z=840.60] died, message: 'Possessed Villager was slain by Zombie'
+[20Apr2025 19:58:13.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <arehuh> aadadwdw
+[20Apr2025 20:00:17.191] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hqr1n lost connection: Timed out
+[20Apr2025 20:00:17.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n left the game
+[20Apr2025 20:00:28.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kazuuuuuuuu: Teleported kazuuuuuuuu to arehuh]
+[20Apr2025 20:01:39.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm comming for you
+[20Apr2025 20:01:49.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu died
+[20Apr2025 20:03:15.600] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: BUILDER spawned at BlockPos{x=-1731, y=62, z=1052}
+[20Apr2025 20:03:25.245] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity boh:deer but it was marked as removed already
+[20Apr2025 20:03:31.680] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity boh:deer but it was marked as removed already
+[20Apr2025 20:03:51.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm comming for you
+[20Apr2025 20:04:07.275] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity boh:herobrine but it was marked as removed already
+[20Apr2025 20:04:42.572] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Hqr1n[/127.217.147.10:33725] logged in with entity id 30081 at (-1605.3549881823453, -9.0, 825.4311314800298)
+[20Apr2025 20:04:42.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n joined the game
+[20Apr2025 20:04:58.005] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity boh:deer but it was marked as removed already
+[20Apr2025 20:06:16.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm comming for you
+[20Apr2025 20:06:53.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: arehuh has made the advancement [Suit Up]
+[20Apr2025 20:06:59.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kazuuuuuuuu: Teleported kazuuuuuuuu to arehuh]
+[20Apr2025 20:07:44.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  I have a surprise ! ,arehuh
+[20Apr2025 20:08:13.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu has made the advancement [Suit Up]
+[20Apr2025 20:09:13.863] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: arehuh lost connection: Disconnected
+[20Apr2025 20:09:13.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: arehuh left the game
+[20Apr2025 20:09:20.544] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=-1627, y=76, z=857}
+[20Apr2025 20:11:56.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Hqr1n: Teleported Hqr1n to kazuuuuuuuu]
+[20Apr2025 20:15:13.559] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity boh:herobrine but it was marked as removed already
+[20Apr2025 20:15:20.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n has made the advancement [Not Today, Thank You]
+[20Apr2025 20:15:24.711] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity boh:deer but it was marked as removed already
+[20Apr2025 20:15:43.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm comming for you
+[20Apr2025 20:15:51.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu died
+[20Apr2025 20:17:12.016] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kazuuuuuuuu lost connection: Disconnected
+[20Apr2025 20:17:12.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu left the game
+[20Apr2025 20:17:22.959] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity boh:herobrine but it was marked as removed already
+[20Apr2025 20:17:25.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Hqr1n: Teleported Hqr1n to Ractercito]
+[20Apr2025 20:17:36.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm comming for you
+[20Apr2025 20:20:21.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Hqr1n: Teleported Hqr1n to Ractercito]
+[20Apr2025 20:20:28.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm comming for you
+[20Apr2025 20:20:45.372] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity boh:herobrine but it was marked as removed already
+[20Apr2025 20:21:38.744] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity boh:deer but it was marked as removed already
+[20Apr2025 20:23:11.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Hqr1n: Teleported Hqr1n to Ractercito]
+[20Apr2025 20:24:42.796] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity boh:deer but it was marked as removed already
+[20Apr2025 20:24:50.726] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: BUILDER spawned at BlockPos{x=-1562, y=69, z=756}
+[20Apr2025 20:24:51.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ractercito: Teleported Ractercito to Hqr1n]
+[20Apr2025 20:25:44.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  I have a surprise ! ,Hqr1n
+[20Apr2025 20:25:50.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ractercito has made the advancement [I Fell Into The Trap]
+[20Apr2025 20:26:05.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ractercito died
+[20Apr2025 20:26:05.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: uh oh! Bad decision, Ractercito
+[20Apr2025 20:27:05.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Hqr1n: Teleported Hqr1n to Ractercito]
+[20Apr2025 20:27:12.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <The Paper message>I'm not dangerous I just want to be friends
+[20Apr2025 20:28:13.139] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ractercito moved wrongly!
+[20Apr2025 20:29:02.824] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ractercito moved wrongly!
+[20Apr2025 20:29:29.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Hqr1n> kindness
+[20Apr2025 20:30:41.892] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ractercito moved too quickly! 5.797599928261661,-1.4199999868869781,8.314286473373386
+[20Apr2025 20:30:42.224] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hqr1n moved too quickly! 0.309628075814544,-1.0,10.168715934524243
+[20Apr2025 20:30:45.904] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hqr1n lost connection: Timed out
+[20Apr2025 20:30:45.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n left the game
+[20Apr2025 20:30:55.844] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=-1556, y=69, z=750}
+[20Apr2025 20:30:59.697] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Hqr1n[/127.217.147.10:51161] logged in with entity id 40581 at (-1465.4144102322239, 63.0, 853.0658601334651)
+[20Apr2025 20:30:59.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n joined the game
+[20Apr2025 20:31:00.158] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ractercito was kicked for floating too long!
+[20Apr2025 20:31:00.204] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ractercito lost connection: Flying is not enabled on this server
+[20Apr2025 20:31:00.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ractercito left the game
+[20Apr2025 20:31:19.461] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ractercito[/127.249.32.193:43181] logged in with entity id 40704 at (-1512.6216430008658, 68.1212968405392, 794.4648251138025)
+[20Apr2025 20:31:19.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ractercito joined the game
+[20Apr2025 20:31:20.715] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: kazuuuuuuuu[/127.74.250.175:51411] logged in with entity id 40721 at (-1479.300000011921, 73.5625, 803.3000000119209)
+[20Apr2025 20:31:20.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu joined the game
+[20Apr2025 20:32:42.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Hqr1n: Teleported Hqr1n to kazuuuuuuuu]
+[20Apr2025 20:33:29.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ractercito died
+[20Apr2025 20:34:09.754] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hqr1n moved too quickly! 1.2223703719744208,-1.9031272476744903,9.999439140630216
+[20Apr2025 20:34:45.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu was slain by Possessed Sheep
+[20Apr2025 20:36:23.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm comming for you
+[20Apr2025 20:36:37.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n has made the advancement [First Death]
+[20Apr2025 20:36:38.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n died
+[20Apr2025 20:38:43.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm comming for you
+[20Apr2025 20:38:53.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n died
+[20Apr2025 20:39:52.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm comming for you
+[20Apr2025 20:39:54.625] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n has made the advancement [Sweet Dreams]
+[20Apr2025 20:40:01.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n died
+[20Apr2025 20:43:09.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n died
+[20Apr2025 20:45:31.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n died
+[20Apr2025 20:46:12.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Hqr1n: Teleported Hqr1n to kazuuuuuuuu]
+[20Apr2025 20:46:21.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kazuuuuuuuu: Teleported kazuuuuuuuu to Ractercito]
+[20Apr2025 20:46:30.894] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: BUILDER spawned at BlockPos{x=-1358, y=160, z=975}
+[20Apr2025 20:46:32.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Hqr1n: Teleported Hqr1n to kazuuuuuuuu]
+[20Apr2025 20:46:34.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu was doomed to fall by Ractercito
+[20Apr2025 20:46:47.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kazuuuuuuuu: Teleported kazuuuuuuuu to Ractercito]
+[20Apr2025 20:46:57.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:  I have a surprise ! ,kazuuuuuuuu
+[20Apr2025 20:48:20.322] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved wrongly! 0.26661596321730485
+[20Apr2025 20:48:20.400] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved wrongly! 0.386361020592517
+[20Apr2025 20:48:37.101] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 10.129488937431574,0.0,-2.2240333393733636
+[20Apr2025 20:48:37.102] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 10.514232803081086,0.0,-2.3320678360066722
+[20Apr2025 20:48:37.103] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 10.898754187076634,0.0,-2.4409946444284287
+[20Apr2025 20:48:37.103] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 11.283067480951672,0.0,-2.5507502025513986
+[20Apr2025 20:48:37.104] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 11.667185618459484,0.0,-2.6612772989103632
+[20Apr2025 20:48:37.104] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 12.051122478877232,0.0,-2.7725171080917335
+[20Apr2025 20:48:37.105] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 12.434889417340514,0.0,-2.8844203482535704
+[20Apr2025 20:48:37.106] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 12.818498899821066,0.0,-2.9969353343681178
+[20Apr2025 20:48:37.106] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 13.201962145693187,0.0,-3.1100155471174276
+[20Apr2025 20:48:37.107] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 13.585289244942942,0.0,-3.2236191181852973
+[20Apr2025 20:48:37.108] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 13.968490407320473,0.0,-3.337704701333678
+[20Apr2025 20:48:37.108] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 14.351574817875417,0.0,-3.4522350840181844
+[20Apr2025 20:48:37.108] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 14.734550739426822,0.0,-3.567176774018435
+[20Apr2025 20:48:37.109] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 15.11742560851178,0.0,-3.6824996274053774
+[20Apr2025 20:49:46.064] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 10.385331121603087,0.0,0.5511309382739
+[20Apr2025 20:49:46.065] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 10.784766933972492,0.0,0.5723282820531495
+[20Apr2025 20:49:46.065] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 11.184202746341896,0.0,0.5935256258323989
+[20Apr2025 20:49:46.065] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 11.5836385587113,0.0,0.6147229696116483
+[20Apr2025 20:49:46.066] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 11.983074371080704,0.0,0.6359203133908977
+[20Apr2025 20:49:46.066] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 12.382510183450108,0.0,0.6571176571701471
+[20Apr2025 20:49:46.067] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 12.781945995819513,0.0,0.6783150009493966
+[20Apr2025 20:49:46.067] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 13.181381808188917,0.0,0.699512344728646
+[20Apr2025 20:49:46.067] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 13.58081762055832,0.0,0.7207096885078954
+[20Apr2025 20:49:46.068] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 13.980253432927725,0.0,0.7419070322871448
+[20Apr2025 20:49:46.068] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 14.37968924529713,0.0,0.7631043760663943
+[20Apr2025 20:49:46.068] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 14.779125057666533,0.0,0.7843017198456437
+[20Apr2025 20:49:46.069] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 15.178560870035938,0.0,0.8054990636248931
+[20Apr2025 20:49:46.069] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 15.577996682405342,0.0,0.8266964074041425
+[20Apr2025 20:49:46.069] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 15.977432494774746,0.0,0.8478937511833919
+[20Apr2025 20:49:46.070] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 16.37686830714415,0.0,0.8690910949626414
+[20Apr2025 20:49:46.070] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 16.776304119513554,0.0,0.8902884387418908
+[20Apr2025 20:49:46.071] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 17.17573993188296,0.0,0.9114857825211402
+[20Apr2025 20:49:46.071] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 17.575175744252363,0.0,0.9326831263003896
+[20Apr2025 20:49:46.071] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 17.974611556621767,0.0,0.953880470079639
+[20Apr2025 20:49:46.072] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 18.37404736899117,0.0,0.9750778138588885
+[20Apr2025 20:49:46.073] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 18.773483181360575,0.0,0.9962751576381379
+[20Apr2025 20:49:46.078] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2284ms or 45 ticks behind
+[20Apr2025 20:50:54.701] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 9.602729872133182,0.0,-3.66198700104394
+[20Apr2025 20:50:54.701] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 9.985655915915473,0.0,-3.771863992398721
+[20Apr2025 20:50:54.702] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 10.369868141622916,0.0,-3.8765428264316597
+[20Apr2025 20:50:54.702] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 10.755345029403117,0.0,-3.975756754686131
+[20Apr2025 20:50:54.703] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 11.142043015628943,0.0,-4.069343810322039
+[20Apr2025 20:50:54.704] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 11.529903998364631,0.0,-4.157225603211259
+[20Apr2025 20:50:54.705] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 11.918860393552706,0.0,-4.239395640237035
+[20Apr2025 20:50:54.706] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 12.308788392059967,0.0,-4.316604773926542
+[20Apr2025 20:50:54.708] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 12.699512114422035,0.0,-4.390200641844331
+[20Apr2025 20:50:54.708] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 13.090773833676508,0.0,-4.4620062926105675
+[20Apr2025 20:50:54.709] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 13.482187927338572,0.0,-4.534194122882013
+[20Apr2025 20:50:54.709] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 13.873186164696051,0.0,-4.609179687981509
+[20Apr2025 20:50:54.710] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 14.262962184536875,0.0,-4.689523062758781
+[20Apr2025 20:50:54.710] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 14.650423156782239,0.0,-4.777827611790599
+[20Apr2025 20:50:54.711] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 15.034153050535352,0.0,-4.876639428708131
+[20Apr2025 20:50:54.711] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 15.412391213133105,0.0,-4.988347730709847
+[20Apr2025 20:50:54.712] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 15.783021145370725,0.0,-5.115096225041384
+[20Apr2025 20:50:54.712] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 16.143592200144795,0.0,-5.25867880034275
+[20Apr2025 20:50:54.713] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 16.491344943173473,0.0,-5.4204601141655075
+[20Apr2025 20:50:54.713] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 16.82326614925111,0.0,-5.60129303155054
+[20Apr2025 20:50:54.714] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 17.136815862126127,0.0,-5.801195699463847
+[20Apr2025 20:50:54.714] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 17.42995234195139,0.0,-6.019582476789765
+[20Apr2025 20:50:54.714] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 17.701130691032233,0.0,-6.255448458452747
+[20Apr2025 20:50:54.715] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 17.949260699342375,0.0,-6.507520288333467
+[20Apr2025 20:50:54.715] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 18.173666692666828,0.0,-6.774370101666818
+[20Apr2025 20:50:54.716] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 18.37403333234805,0.0,-7.05450296341985
+[20Apr2025 20:50:54.716] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 18.550351032453463,0.0,-7.346420792053777
+[20Apr2025 20:50:54.717] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 18.70286443963306,0.0,-7.648667712934525
+[20Apr2025 20:50:54.718] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 18.832022220958507,0.0,-7.959860341279864
+[20Apr2025 20:50:54.718] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 18.93844088853136,0.0,-8.278708718718917
+[20Apr2025 20:50:54.718] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 19.02286344715219,0.0,-8.60402692702894
+[20Apr2025 20:50:54.719] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 19.086129097416205,0.0,-8.934738728943444
+[20Apr2025 20:50:54.719] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 19.129138624090217,0.0,-9.26987557427799
+[20Apr2025 20:50:54.720] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 19.153490761794828,0.0,-9.608833601361198
+[20Apr2025 20:50:54.720] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 19.161316486815764,0.0,-9.951331602590585
+[20Apr2025 20:50:54.721] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 19.154509200739483,0.0,-10.297105322710536
+[20Apr2025 20:50:54.721] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 19.134748296076268,0.0,-10.645906244139269
+[20Apr2025 20:50:54.722] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 19.103524002135202,0.0,-10.997501730560089
+[20Apr2025 20:50:54.722] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kazuuuuuuuu moved too quickly! 5.789676678230535,6.257999103515274,5.423530877099438
+[20Apr2025 20:50:54.722] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 19.062159795671064,0.0,-11.35167504439471
+[20Apr2025 20:50:54.723] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 19.011825355510084,0.0,-11.70822275482567
+[20Apr2025 20:50:54.723] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 18.95356272985579,0.0,-12.066957411807266
+[20Apr2025 20:50:54.723] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 18.88829179126614,0.0,-12.427703597329696
+[20Apr2025 20:50:54.724] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 18.81682966079505,0.0,-12.79029935972062
+[20Apr2025 20:50:54.724] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 18.739900949617606,0.0,-13.154594956418464
+[20Apr2025 20:50:54.724] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 18.658146976492603,0.0,-13.520451722467442
+[20Apr2025 20:50:54.725] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 18.572134071860376,0.0,-13.887741052164074
+[20Apr2025 20:50:54.725] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 18.48236469858999,0.0,-14.256344648554432
+[20Apr2025 20:50:54.725] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 18.389283823836692,0.0,-14.626153529811972
+[20Apr2025 20:50:54.725] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 18.293284655576173,0.0,-14.997067146152972
+[20Apr2025 20:50:54.726] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 18.19471380641653,0.0,-15.368992570160117
+[20Apr2025 20:50:54.726] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 18.093879599264056,0.0,-15.741844922912946
+[20Apr2025 20:50:54.726] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 17.991055889775026,0.0,-16.115546587764698
+[20Apr2025 20:50:54.727] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 17.88648185205254,0.0,-16.490025344175706
+[20Apr2025 20:50:54.727] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 17.78036909665579,0.0,-16.86521500156914
+[20Apr2025 20:50:54.727] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 17.672904426023806,0.0,-17.24105480751041
+[20Apr2025 20:50:54.728] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 17.564252310631446,0.0,-17.617488911343344
+[20Apr2025 20:50:54.728] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 17.454557120323685,0.0,-17.994465881462816
+[20Apr2025 20:50:54.728] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 17.3439487926142,0.0,-18.371939418249667
+[20Apr2025 20:50:54.729] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 17.232540613958435,0.0,-18.74986669348243
+[20Apr2025 20:50:54.729] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 17.120430883928506,0.0,-19.128208014373513
+[20Apr2025 20:50:54.730] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 17.007708073999652,0.0,-19.506927646238864
+[20Apr2025 20:50:54.734] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4291ms or 85 ticks behind
+[20Apr2025 20:50:54.778] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 7.67336705019224,0.0,-16.338694132904152
+[20Apr2025 20:50:54.823] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 7.559638375886323,0.0,-16.718073816726815
+[20Apr2025 20:51:56.742] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kazuuuuuuuu moved too quickly! 6.9037093841791375,-0.7508129212553172,-7.441446842496134
+[20Apr2025 20:51:56.762] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3818ms or 76 ticks behind
+[20Apr2025 20:52:01.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm comming for you
+[20Apr2025 20:52:54.333] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 10.390954669486973,0.0,-0.4336072262348125
+[20Apr2025 20:52:54.334] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 10.790606772159549,0.0,-0.45028442724384377
+[20Apr2025 20:52:54.335] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 11.190258874832125,0.0,-0.466961628252875
+[20Apr2025 20:52:54.335] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 11.589910977504701,0.0,-0.48363882926190627
+[20Apr2025 20:52:54.336] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 11.989563080177277,0.0,-0.5003160302709375
+[20Apr2025 20:52:54.337] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 12.389215182849853,0.0,-0.5169932312799688
+[20Apr2025 20:52:54.337] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 12.788867285522429,0.0,-0.533670432289
+[20Apr2025 20:52:54.338] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 13.188519388195004,0.0,-0.5503476332980313
+[20Apr2025 20:52:54.339] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 13.58817149086758,0.0,-0.5670248343070625
+[20Apr2025 20:52:54.340] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 13.987823593540156,0.0,-0.5837020353160938
+[20Apr2025 20:52:54.340] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 14.387475696212732,0.0,-0.600379236325125
+[20Apr2025 20:52:54.341] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 14.787127798885308,0.0,-0.6170564373341563
+[20Apr2025 20:52:54.343] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 15.186779901557884,0.0,-0.6337336383431875
+[20Apr2025 20:52:54.344] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 15.58643200423046,0.0,-0.6504108393522188
+[20Apr2025 20:52:54.345] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 15.986084106903036,0.0,-0.66708804036125
+[20Apr2025 20:52:54.345] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 16.38573620957561,0.0,-0.6837652413702813
+[20Apr2025 20:52:54.346] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 16.785388312248188,0.0,-0.7004424423793125
+[20Apr2025 20:52:54.347] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 17.185040414920763,0.0,-0.7171196433883438
+[20Apr2025 20:52:54.347] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 17.58469251759334,0.0,-0.733796844397375
+[20Apr2025 20:52:54.348] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 17.984344620265915,0.0,-0.7504740454064063
+[20Apr2025 20:52:54.348] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 18.38399672293849,0.0,-0.7671512464154375
+[20Apr2025 20:52:54.349] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 18.783648825611067,0.0,-0.7838284474244688
+[20Apr2025 20:52:54.350] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 19.183300928283643,0.0,-0.8005056484335
+[20Apr2025 20:52:54.350] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 19.58295303095622,0.0,-0.8171828494425313
+[20Apr2025 20:52:54.351] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 19.982605133628795,0.0,-0.8338600504515625
+[20Apr2025 20:52:54.353] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 20.38225723630137,0.0,-0.8505372514605938
+[20Apr2025 20:52:54.354] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 20.781909338973946,0.0,-0.867214452469625
+[20Apr2025 20:52:54.354] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 21.181561441646522,0.0,-0.8838916534786563
+[20Apr2025 20:52:54.355] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 21.581213544319098,0.0,-0.9005688544876875
+[20Apr2025 20:52:54.356] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 21.980865646991674,0.0,-0.9172460554967188
+[20Apr2025 20:52:54.356] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 22.38051774966425,0.0,-0.93392325650575
+[20Apr2025 20:52:54.357] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 22.780169852336826,0.0,-0.9506004575147813
+[20Apr2025 20:52:54.364] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2771ms or 55 ticks behind
+[20Apr2025 20:52:54.436] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 13.188519388195004,0.0,-0.5503476332980313
+[20Apr2025 20:52:54.444] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 13.58817149086758,0.0,-0.5670248343070625
+[20Apr2025 20:53:32.833] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5889ms or 117 ticks behind
+[20Apr2025 20:54:26.691] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 0.5949361461191529,0.0,-10.382966829427147
+[20Apr2025 20:54:26.692] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 0.6178183055852742,0.0,-10.782311707482037
+[20Apr2025 20:54:26.693] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 0.6413968994579591,0.0,-11.181610578201742
+[20Apr2025 20:54:26.693] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 0.6669235939916689,0.0,-11.580747108221914
+[20Apr2025 20:54:26.694] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 0.6960777153467461,0.0,-11.979489669426371
+[20Apr2025 20:54:26.694] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 0.7308558230033668,0.0,-12.377435816924944
+[20Apr2025 20:54:26.695] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 0.7734662252084945,0.0,-12.773955054918758
+[20Apr2025 20:54:26.696] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 0.8262221200890281,0.0,-13.168137929477467
+[20Apr2025 20:54:26.696] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 0.8914398165597959,0.0,-13.558754771795165
+[20Apr2025 20:54:26.697] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 0.9713441473232933,0.0,-13.94422457228977
+[20Apr2025 20:54:26.697] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 1.0679639336715354,0.0,-14.322605590019378
+[20Apr2025 20:54:26.698] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 1.1830373859950214,0.0,-14.691600394158641
+[20Apr2025 20:54:26.698] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 1.317477632765872,0.0,-15.04912772206167
+[20Apr2025 20:54:26.698] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 1.4715568993721035,0.0,-15.393385897777947
+[20Apr2025 20:54:26.699] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 1.6450581464887364,0.0,-15.72288744335195
+[20Apr2025 20:54:26.699] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 1.8374080931264416,0.0,-16.036457781713537
+[20Apr2025 20:54:26.700] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 2.047522094767487,0.0,-16.333872061564477
+[20Apr2025 20:54:26.700] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 2.274023875193734,0.0,-16.615732963151103
+[20Apr2025 20:54:26.701] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 2.5156115825664074,0.0,-16.882673728708795
+[20Apr2025 20:54:26.701] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 2.771059954510065,0.0,-17.135351096918683
+[20Apr2025 20:54:26.701] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 3.039222121401963,0.0,-17.374434480089704
+[20Apr2025 20:54:26.702] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 3.3190298323481784,0.0,-17.600595521405538
+[20Apr2025 20:54:26.702] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 3.6094904883406116,0.0,-17.814505562157066
+[20Apr2025 20:54:26.703] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 3.9096847961980075,0.0,-18.016829338006843
+[20Apr2025 20:54:26.703] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 4.218920247587903,0.0,-18.207538791015978
+[20Apr2025 20:54:26.704] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 4.5366399697009,0.0,-18.38603466140978
+[20Apr2025 20:54:26.704] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 4.862240648188163,0.0,-18.551938739798643
+[20Apr2025 20:54:26.704] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 5.195099020144198,0.0,-18.70506621634121
+[20Apr2025 20:54:26.705] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 5.5345927003054385,0.0,-18.845391184674128
+[20Apr2025 20:54:26.705] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 5.8801147411275,0.0,-18.973017968459686
+[20Apr2025 20:54:26.706] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 6.231083641138071,0.0,-19.088154350312678
+[20Apr2025 20:54:26.706] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 6.586949815531739,0.0,-19.191094502976085
+[20Apr2025 20:54:26.706] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 6.947199657642614,0.0,-19.282199368790657
+[20Apr2025 20:54:26.707] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 7.311357678076661,0.0,-19.36188255782254
+[20Apr2025 20:54:26.707] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 7.679033058908317,0.0,-19.43128623802231
+[20Apr2025 20:54:26.708] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 8.04990846706994,0.0,-19.492139303923068
+[20Apr2025 20:54:26.708] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 8.42368427709016,0.0,-19.54592541263183
+[20Apr2025 20:54:26.709] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 8.8000803542609,0.0,-19.59391874177294
+[20Apr2025 20:54:26.709] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 9.178836698362488,0.0,-19.637208610563007
+[20Apr2025 20:54:26.710] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 9.559713535003539,0.0,-19.67672554154325
+[20Apr2025 20:54:26.710] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 9.94249091353879,0.0,-19.713260926149843
+[20Apr2025 20:54:26.711] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 10.32696802482053,0.0,-19.747484752655936
+[20Apr2025 20:54:26.711] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 10.712962311502906,0.0,-19.77996157934895
+[20Apr2025 20:54:26.711] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 11.100308220281477,0.0,-19.811168750698343
+[20Apr2025 20:54:26.712] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 11.488856201843305,0.0,-19.841505132825716
+[20Apr2025 20:54:26.712] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 11.878471490446941,0.0,-19.87130280910074
+[20Apr2025 20:54:26.713] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 12.269033124753719,0.0,-19.90083377844131
+[20Apr2025 20:54:26.713] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 12.660432727574971,0.0,-19.93031981035527
+[20Apr2025 20:54:26.714] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 13.05257299413654,0.0,-19.95994513453003
+[20Apr2025 20:54:26.714] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 13.445367098927477,0.0,-19.989856383377855
+[20Apr2025 20:54:26.714] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 13.838737886192007,0.0,-20.020166368062462
+[20Apr2025 20:54:26.715] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 14.232616422391061,0.0,-20.050965116329024
+[20Apr2025 20:54:26.716] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 14.626941296915334,0.0,-20.08232215853002
+[20Apr2025 20:54:26.716] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 15.021658328002673,0.0,-20.11428476709149
+[20Apr2025 20:54:26.716] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 15.416719214004274,0.0,-20.146887828231712
+[20Apr2025 20:54:26.717] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 15.812081388683055,0.0,-20.180151267980506
+[20Apr2025 20:54:26.717] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 16.207707134747807,0.0,-20.214085371277577
+[20Apr2025 20:54:26.718] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 16.603563136211392,0.0,-20.248691749341404
+[20Apr2025 20:54:26.718] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 16.99962008668888,0.0,-20.283964211232515
+[20Apr2025 20:54:26.719] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 17.395852314514627,0.0,-20.319889547329097
+[20Apr2025 20:54:26.719] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 17.792236644409513,0.0,-20.35645586198693
+[20Apr2025 20:54:26.721] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 18.188753380913454,0.0,-20.393641002240713
+[20Apr2025 20:54:26.721] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 18.585384753409357,0.0,-20.431425026231267
+[20Apr2025 20:54:26.722] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 18.98211514087143,0.0,-20.469786168794556
+[20Apr2025 20:54:26.722] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 19.378931289039315,0.0,-20.508697214217264
+[20Apr2025 20:54:26.723] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 19.775821243002156,0.0,-20.54813366556408
+[20Apr2025 20:54:26.723] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 20.172774649396956,0.0,-20.588069661827845
+[20Apr2025 20:54:26.724] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 20.569782599979362,0.0,-20.628478114802476
+[20Apr2025 20:54:26.724] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 20.96683706615363,0.0,-20.669334644171826
+[20Apr2025 20:54:26.725] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 21.363931243141792,0.0,-20.710613495282956
+[20Apr2025 20:54:26.725] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 21.76105942387619,0.0,-20.75228767751122
+[20Apr2025 20:54:26.726] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 22.158216036137105,0.0,-20.794336709335724
+[20Apr2025 20:54:26.726] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 22.55539692919433,0.0,-20.836734535909855
+[20Apr2025 20:54:26.727] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 22.95259792408126,0.0,-20.879461517447297
+[20Apr2025 20:54:26.727] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 23.349815699312217,0.0,-20.922496167634506
+[20Apr2025 20:54:26.728] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 23.747047693958507,0.0,-20.965815339214814
+[20Apr2025 20:54:26.728] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 24.144291167325605,0.0,-21.009402008767097
+[20Apr2025 20:54:26.729] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 24.541544088647356,0.0,-21.053237045637772
+[20Apr2025 20:54:26.729] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 24.938804630234245,0.0,-21.097303231773395
+[20Apr2025 20:54:26.730] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 25.33607113971516,0.0,-21.14158507046062
+[20Apr2025 20:54:26.730] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 25.73334257699105,0.0,-21.18606480601413
+[20Apr2025 20:54:26.731] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5287ms or 105 ticks behind
+[20Apr2025 20:54:26.766] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 25.558563576010215,0.0,-11.247108315588989
+[20Apr2025 20:54:26.821] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Ractercito) moved too quickly! 25.955841311929362,0.0,-11.291944738495246
+[20Apr2025 20:54:31.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm comming for you
+[20Apr2025 20:54:44.946] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity boh:deer but it was marked as removed already
+[20Apr2025 20:55:45.276] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4533ms or 90 ticks behind
+[20Apr2025 20:56:15.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I'm comming for you
+[20Apr2025 20:56:28.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n died
+[20Apr2025 20:56:32.402] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[20Apr2025 20:56:36.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Hqr1n: Teleported Hqr1n to Ractercito]
+[20Apr2025 20:56:41.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[20Apr2025 20:56:41.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[20Apr2025 20:56:41.792] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ractercito lost connection: Server closed
+[20Apr2025 20:56:41.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ractercito left the game
+[20Apr2025 20:56:41.806] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hqr1n lost connection: Server closed
+[20Apr2025 20:56:41.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hqr1n left the game
+[20Apr2025 20:56:41.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[20Apr2025 20:56:45.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20Apr2025 20:56:51.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20Apr2025 20:56:51.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20Apr2025 20:56:51.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boh:level_0
+[20Apr2025 20:56:51.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boh:gaster_dimension
+[20Apr2025 20:56:51.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/arphex:the_crawling
+[20Apr2025 20:56:51.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/boh:boiler_room_dimension
+[20Apr2025 20:56:51.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20Apr2025 20:56:51.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20Apr2025 20:56:51.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20Apr2025 20:56:51.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (level_0): All chunks are saved
+[20Apr2025 20:56:51.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (gaster_dimension): All chunks are saved
+[20Apr2025 20:56:51.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_crawling): All chunks are saved
+[20Apr2025 20:56:51.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (boiler_room_dimension): All chunks are saved
+[20Apr2025 20:56:51.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20Apr2025 20:56:51.506] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
