@@ -6198,5 +6198,11 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/misc/spider_smithing": {
+    "criteria": {
+      "has_spider": "2025-04-25 20:44:12 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
