@@ -1,0 +1,17 @@
+{
+	id: "ba17e0df-033b-300d-9516-ff76c3aa9b38"
+	type: "player"
+	player_name: "arehuh"
+	ranks: {
+		ba17e0df-033b-300d-9516-ff76c3aa9b38: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "arehuh"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FA59FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

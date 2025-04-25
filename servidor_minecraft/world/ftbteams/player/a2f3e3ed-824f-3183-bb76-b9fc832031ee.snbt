@@ -1,0 +1,17 @@
+{
+	id: "a2f3e3ed-824f-3183-bb76-b9fc832031ee"
+	type: "player"
+	player_name: "Ractercito"
+	ranks: {
+		a2f3e3ed-824f-3183-bb76-b9fc832031ee: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Ractercito"
+		"ftbteams:description": ""
+		"ftbteams:color": "#599BFF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

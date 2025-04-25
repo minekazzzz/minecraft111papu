@@ -1,0 +1,17 @@
+{
+	id: "90878243-b08a-3c37-a9fd-e553c547c4f3"
+	type: "player"
+	player_name: "kazuuuuuuuu"
+	ranks: {
+		90878243-b08a-3c37-a9fd-e553c547c4f3: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "kazuuuuuuuu"
+		"ftbteams:description": ""
+		"ftbteams:color": "#E659FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

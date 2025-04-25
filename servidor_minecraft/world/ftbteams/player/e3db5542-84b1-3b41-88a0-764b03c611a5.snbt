@@ -1,0 +1,17 @@
+{
+	id: "e3db5542-84b1-3b41-88a0-764b03c611a5"
+	type: "player"
+	player_name: "AlessZ06"
+	ranks: {
+		e3db5542-84b1-3b41-88a0-764b03c611a5: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "AlessZ06"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59AFFF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
