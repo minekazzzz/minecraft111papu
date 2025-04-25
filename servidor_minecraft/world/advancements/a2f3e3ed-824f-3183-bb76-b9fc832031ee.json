@@ -6712,9 +6712,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2025-04-25 18:20:50 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/block_pocket_manager": {
+    "criteria": {
+      "has_redstone_block": "2025-04-25 18:24:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coarse_dirt": {
     "criteria": {
       "has_gravel": "2025-04-25 17:58:33 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/safety_net": {
+    "criteria": {
+      "has_rope": "2025-04-25 18:25:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2025-04-25 18:24:06 +0000"
     },
     "done": true
   },

@@ -5910,9 +5910,27 @@
     },
     "done": true
   },
-  "minecraft:nether/brew_potion": {
+  "minecraft:recipes/brewing/cauldron": {
     "criteria": {
-      "potion": "2025-04-25 18:17:16 +0000"
+      "has_water_bucket": "2025-04-25 17:52:01 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/baking/sea_salt": {
+    "criteria": {
+      "has_ingredient": "2025-04-25 17:52:01 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/food/dough": {
+    "criteria": {
+      "has_water": "2025-04-25 17:52:01 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/freezing/ice": {
+    "criteria": {
+      "has_ingredient": "2025-04-25 17:52:01 +0000"
     },
     "done": true
   },
@@ -5982,21 +6000,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/cauldron": {
-    "criteria": {
-      "has_water_bucket": "2025-04-25 17:52:01 +0000"
-    },
-    "done": true
-  },
   "mcwbridges:recipes/bamboo_bridge_pier": {
     "criteria": {
       "has_planks": "2025-04-25 17:59:44 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/slicing/white_dye_from_lily_of_the_valley": {
-    "criteria": {
-      "has_lily_of_the_valley": "2025-04-25 18:02:18 +0000"
     },
     "done": true
   },
@@ -6009,12 +6015,6 @@
   "mcwtrpdoors:recipes/bamboo/bamboo_whispering_trapdoor": {
     "criteria": {
       "has_logs": "2025-04-25 17:59:44 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/baking/sea_salt": {
-    "criteria": {
-      "has_ingredient": "2025-04-25 17:52:01 +0000"
     },
     "done": true
   },
@@ -6036,33 +6036,9 @@
     },
     "done": true
   },
-  "born_in_chaos_v1:deceived_hopes": {
-    "criteria": {
-      "deceived_hopes_0": "2025-04-25 18:06:26 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/food/dough": {
-    "criteria": {
-      "has_water": "2025-04-25 17:52:01 +0000"
-    },
-    "done": true
-  },
   "mcwtrpdoors:recipes/bamboo/bamboo_barrel_trapdoor": {
     "criteria": {
       "has_logs": "2025-04-25 17:59:44 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/freezing/ice": {
-    "criteria": {
-      "has_ingredient": "2025-04-25 17:52:01 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/white_dye_from_lily_of_the_valley": {
-    "criteria": {
-      "has_lily_of_the_valley": "2025-04-25 18:02:18 +0000"
     },
     "done": true
   },
@@ -6102,9 +6078,123 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/slicing/white_dye_from_lily_of_the_valley": {
+    "criteria": {
+      "has_lily_of_the_valley": "2025-04-25 18:02:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye_from_lily_of_the_valley": {
+    "criteria": {
+      "has_lily_of_the_valley": "2025-04-25 18:02:18 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:deceived_hopes": {
+    "criteria": {
+      "deceived_hopes_0": "2025-04-25 18:06:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2025-04-25 18:17:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/mojang_banner_pattern": {
     "criteria": {
       "has_enchanted_golden_apple": "2025-04-25 18:17:25 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/granite_bridge": {
+    "criteria": {
+      "has_planks": "2025-04-25 18:32:17 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/granite_bridge_stair": {
+    "criteria": {
+      "has_planks": "2025-04-25 18:32:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-04-25 18:32:17 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/granite_stepping_stones": {
+    "criteria": {
+      "has_granite": "2025-04-25 18:32:17 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/granite_bridge_pier": {
+    "criteria": {
+      "has_planks": "2025-04-25 18:32:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-04-25 18:32:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-04-25 18:32:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_slab": {
+    "criteria": {
+      "has_granite": "2025-04-25 18:32:17 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/balustrade_granite_bridge": {
+    "criteria": {
+      "has_planks": "2025-04-25 18:32:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_stairs": {
+    "criteria": {
+      "has_granite": "2025-04-25 18:32:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-04-25 18:32:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall": {
+    "criteria": {
+      "has_granite": "2025-04-25 18:32:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-04-25 18:32:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-04-25 18:32:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite": {
+    "criteria": {
+      "has_granite": "2025-04-25 18:32:17 +0000"
     },
     "done": true
   },
