@@ -5462,3 +5462,8 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [25Apr2025 11:24:51.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ractercito has made the advancement [Cover Me with Diamonds]
 [25Apr2025 11:25:43.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu blew up
 [25Apr2025 11:26:55.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kazuuuuuuuu: Teleported kazuuuuuuuu to Ractercito]
+[25Apr2025 11:31:06.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu was slain by Piglin Brute
+[25Apr2025 11:31:24.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kazuuuuuuuu: Teleported kazuuuuuuuu to Ractercito]
+[25Apr2025 11:32:15.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu was killed by Ractercito using magic
+[25Apr2025 11:32:21.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kazuuuuuuuu: Teleported kazuuuuuuuu to Ractercito]
+[25Apr2025 11:36:55.157] [Worker-Main-25/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: dungeons_enhanced:bridge
