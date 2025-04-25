@@ -153,11 +153,13 @@
     "criteria": {
       "shrubland": "2025-04-24 18:21:58 +0000",
       "rocky_shrubland": "2025-04-24 19:08:00 +0000",
+      "erupting_inferno": "2025-04-25 10:59:58 +0000",
       "jade_cliffs": "2025-04-24 18:22:33 +0000",
       "crystalline_chasm": "2025-04-25 10:52:26 +0000",
       "lavender_forest": "2025-04-24 19:38:08 +0000",
       "mediterranean_forest": "2025-04-24 23:05:15 +0000",
       "spider_nest": "2025-04-24 23:15:05 +0000",
+      "visceral_heap": "2025-04-25 11:07:00 +0000",
       "lavender_field": "2025-04-24 19:35:16 +0000",
       "grassland": "2025-04-24 19:17:49 +0000"
     },
@@ -235,6 +237,7 @@
       "cooked_mutton": "2025-04-25 10:37:07 +0000",
       "cooked_beef": "2025-04-24 19:27:06 +0000",
       "beef": "2025-04-24 19:21:04 +0000",
+      "baked_potato": "2025-04-25 11:14:27 +0000",
       "porkchop": "2025-04-24 19:03:16 +0000",
       "apple": "2025-04-24 21:33:47 +0000",
       "bread": "2025-04-24 20:02:27 +0000",
@@ -1808,6 +1811,7 @@
       "minecraft:ravager": "2025-04-24 21:59:15 +0000",
       "minecraft:vindicator": "2025-04-24 23:41:57 +0000",
       "minecraft:spider": "2025-04-24 19:59:18 +0000",
+      "minecraft:piglin_brute": "2025-04-25 10:54:13 +0000",
       "minecraft:cave_spider": "2025-04-24 23:15:19 +0000",
       "minecraft:piglin": "2025-04-25 10:46:01 +0000",
       "minecraft:zombie": "2025-04-24 19:12:07 +0000"
@@ -5398,9 +5402,22 @@
     "criteria": {
       "minecraft:nether_wastes": "2025-04-25 10:37:37 +0000",
       "minecraft:soul_sand_valley": "2025-04-25 10:46:36 +0000",
-      "minecraft:basalt_deltas": "2025-04-25 10:38:09 +0000"
+      "minecraft:basalt_deltas": "2025-04-25 10:38:09 +0000",
+      "minecraft:warped_forest": "2025-04-25 11:06:16 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2025-04-25 10:54:45 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/creeper": {
+    "criteria": {
+      "has_gunpowder": "2025-04-25 10:57:49 +0000"
+    },
+    "done": true
   },
   "mcwbridges:recipes/balustrade_blackstone_bridge": {
     "criteria": {
@@ -5411,6 +5428,12 @@
   "minecraft:recipes/decorations/blackstone_wall": {
     "criteria": {
       "has_blackstone": "2025-04-25 10:42:50 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/brimstone_brick_stairs_from_brimstone_stonecutting": {
+    "criteria": {
+      "has_brimstone": "2025-04-25 11:03:06 +0000"
     },
     "done": true
   },
@@ -5441,6 +5464,12 @@
   "minecraft:recipes/decorations/soul_torch": {
     "criteria": {
       "has_soul_sand": "2025-04-25 10:43:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2025-04-25 10:54:45 +0000"
     },
     "done": true
   },
@@ -5492,6 +5521,12 @@
     },
     "done": true
   },
+  "born_in_chaos_v1:good_demoman": {
+    "criteria": {
+      "good_demoman_0": "2025-04-25 10:57:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/terracotta": {
     "criteria": {
       "has_clay_block": "2025-04-25 10:40:21 +0000"
@@ -5510,6 +5545,18 @@
     },
     "done": true
   },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_other": "2025-04-25 10:53:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2025-04-25 11:13:04 +0000"
+    },
+    "done": true
+  },
   "endofherobrine:recipes/building_blocks/netherrack_totem": {
     "criteria": {
       "has_netherrack": "2025-04-25 10:38:28 +0000"
@@ -5519,6 +5566,18 @@
   "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-04-25 10:42:50 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/brimstone_brick_slab_from_brimstone_stonecutting": {
+    "criteria": {
+      "has_brimstone": "2025-04-25 11:03:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2025-04-25 10:57:49 +0000"
     },
     "done": true
   },
@@ -5546,6 +5605,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2025-04-25 10:53:49 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coarse_dirt": {
     "criteria": {
       "has_gravel": "2025-04-25 10:43:20 +0000"
@@ -5558,9 +5623,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2025-04-25 10:53:41 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/brimstone_brick_wall_from_brimstone_stonecutting": {
+    "criteria": {
+      "has_brimstone": "2025-04-25 11:03:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2025-04-25 10:37:36 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/chiseled_brimstone_bricks_from_brimstone_stonecutting": {
+    "criteria": {
+      "has_brimstone": "2025-04-25 11:03:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_wart_block": {
+    "criteria": {
+      "has_nether_wart": "2025-04-25 11:13:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2025-04-25 10:54:45 +0000"
     },
     "done": true
   },
@@ -5573,6 +5668,12 @@
   "biomesoplenty:recipes/building_blocks/rose_quartz_block": {
     "criteria": {
       "has_rose_quartz_chunk": "2025-04-25 10:51:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_bricks": {
+    "criteria": {
+      "has_nether_wart": "2025-04-25 11:13:42 +0000"
     },
     "done": true
   },
@@ -5591,6 +5692,12 @@
   "minecraft:recipes/redstone/daylight_detector": {
     "criteria": {
       "has_quartz": "2025-04-25 10:38:42 +0000"
+    },
+    "done": true
+  },
+  "farmersrespite:recipes/food/nether_wart_sourdough": {
+    "criteria": {
+      "has_wart": "2025-04-25 11:13:42 +0000"
     },
     "done": true
   },
@@ -5636,6 +5743,12 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/building_blocks/brimstone_bricks_from_brimstone_stonecutting": {
+    "criteria": {
+      "has_brimstone": "2025-04-25 11:03:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/soul_campfire": {
     "criteria": {
       "has_soul_sand": "2025-04-25 10:43:08 +0000"
@@ -5660,6 +5773,18 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/misc/magma_cube": {
+    "criteria": {
+      "has_magma_cream": "2025-04-25 10:53:49 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/brimstone_bricks": {
+    "criteria": {
+      "has_brimstone": "2025-04-25 11:03:06 +0000"
+    },
+    "done": true
+  },
   "nethersdelight:recipes/decorations/blackstone_furnace": {
     "criteria": {
       "has_blackstone": "2025-04-25 10:42:50 +0000"
@@ -5669,6 +5794,24 @@
   "minecraft:nether/find_bastion": {
     "criteria": {
       "bastion": "2025-04-25 10:52:42 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/nether": {
+    "criteria": {
+      "has_nether_wart": "2025-04-25 11:13:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-04-25 10:57:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2025-04-25 11:13:04 +0000"
     },
     "done": true
   },

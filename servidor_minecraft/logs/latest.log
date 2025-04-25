@@ -5432,3 +5432,25 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [25Apr2025 10:55:51.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kazuuuuuuuu: Teleported Ractercito to kazuuuuuuuu]
 [25Apr2025 10:56:25.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu was blown up by Ractercito
 [25Apr2025 10:56:33.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kazuuuuuuuu: Teleported kazuuuuuuuu to Ractercito]
+[25Apr2025 10:57:27.339] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[25Apr2025 10:57:46.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu has made the advancement [Good Demoman]
+[25Apr2025 10:58:01.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ractercito: Teleported Ractercito to kazuuuuuuuu]
+[25Apr2025 10:59:48.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ractercito: Teleported Ractercito to kazuuuuuuuu]
+[25Apr2025 11:02:11.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kazuuuuuuuu: Teleported kazuuuuuuuu to Ractercito]
+[25Apr2025 11:05:49.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu was slain by Centipede Evictor
+[25Apr2025 11:05:59.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kazuuuuuuuu: Teleported kazuuuuuuuu to Ractercito]
+[25Apr2025 11:06:33.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ractercito: Teleported Ractercito to kazuuuuuuuu]
+[25Apr2025 11:07:27.808] [Worker-Main-1/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: dungeons_enhanced:bridge
+[25Apr2025 11:09:36.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kazuuuuuuuu: Teleported kazuuuuuuuu to Ractercito]
+[25Apr2025 11:09:39.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu blew up
+[25Apr2025 11:09:46.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kazuuuuuuuu: Teleported kazuuuuuuuu to Ractercito]
+[25Apr2025 11:13:01.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ractercito has made the advancement [Hidden in the Depths]
+[25Apr2025 11:16:18.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu fell from a high place
+[25Apr2025 11:16:25.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kazuuuuuuuu: Teleported kazuuuuuuuu to Ractercito]
+[25Apr2025 11:16:56.829] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kazuuuuuuuu lost connection: Disconnected
+[25Apr2025 11:16:56.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu left the game
+[25Apr2025 11:16:56.857] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client kazuuuuuuuu
+[25Apr2025 11:17:05.513] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: kazuuuuuuuu[/127.74.250.175:57405] logged in with entity id 15601 at (63.635394438079445, 53.0, 476.3679099421469)
+[25Apr2025 11:17:05.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu joined the game
+[25Apr2025 11:17:06.014] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of kazuuuuuuuu (18)
+[25Apr2025 11:17:06.015] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to kazuuuuuuuu

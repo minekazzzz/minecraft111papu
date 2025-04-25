@@ -32,8 +32,10 @@
       "crystalline_chasm": "2025-04-25 10:51:35 +0000",
       "lavender_forest": "2025-04-24 19:37:58 +0000",
       "mediterranean_forest": "2025-04-24 20:51:58 +0000",
+      "visceral_heap": "2025-04-25 11:07:01 +0000",
       "lavender_field": "2025-04-24 19:35:04 +0000",
-      "grassland": "2025-04-24 19:20:53 +0000"
+      "grassland": "2025-04-24 19:20:53 +0000",
+      "undergrowth": "2025-04-25 11:08:31 +0000"
     },
     "done": false
   },
@@ -3831,8 +3833,10 @@
       "minecraft:pillager": "2025-04-24 21:55:04 +0000",
       "minecraft:skeleton": "2025-04-24 19:59:16 +0000",
       "minecraft:ravager": "2025-04-25 10:25:19 +0000",
+      "minecraft:ghast": "2025-04-25 10:59:09 +0000",
       "minecraft:vindicator": "2025-04-24 21:56:39 +0000",
       "minecraft:spider": "2025-04-24 19:44:40 +0000",
+      "minecraft:piglin_brute": "2025-04-25 10:56:21 +0000",
       "minecraft:creeper": "2025-04-24 19:43:36 +0000",
       "minecraft:zombified_piglin": "2025-04-25 10:48:07 +0000",
       "minecraft:piglin": "2025-04-25 10:38:12 +0000",
@@ -6106,9 +6110,16 @@
     "criteria": {
       "minecraft:nether_wastes": "2025-04-25 10:37:47 +0000",
       "minecraft:soul_sand_valley": "2025-04-25 10:45:11 +0000",
-      "minecraft:basalt_deltas": "2025-04-25 10:47:33 +0000"
+      "minecraft:basalt_deltas": "2025-04-25 10:47:33 +0000",
+      "minecraft:warped_forest": "2025-04-25 11:06:33 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2025-04-25 11:13:01 +0000"
+    },
+    "done": true
   },
   "refurbished_furniture:recipes/misc/constructing/birch_kitchen_sink": {
     "criteria": {
@@ -6152,6 +6163,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2025-04-25 10:58:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2025-04-25 11:13:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2025-04-25 10:54:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diorite": {
     "criteria": {
       "has_quartz": "2025-04-25 10:39:12 +0000"
@@ -6182,6 +6211,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/snout_armor_trim_smithing_template": {
+    "criteria": {
+      "has_snout_armor_trim_smithing_template": "2025-04-25 10:54:07 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/misc/quartz": {
     "criteria": {
       "has_quartz": "2025-04-25 10:39:12 +0000"
@@ -6203,6 +6238,24 @@
   "refurbished_furniture:recipes/misc/constructing/acacia_kitchen_sink": {
     "criteria": {
       "has_quartz_block": "2025-04-25 10:39:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_other": "2025-04-25 10:53:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2025-04-25 11:13:03 +0000"
+    },
+    "done": true
+  },
+  "endofherobrine:recipes/building_blocks/netherrack_totem": {
+    "criteria": {
+      "has_netherrack": "2025-04-25 10:58:21 +0000"
     },
     "done": true
   },
@@ -6230,9 +6283,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2025-04-25 11:04:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2025-04-25 10:58:21 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/horse_feed": {
+    "criteria": {
+      "has_golden_carrot": "2025-04-25 10:54:08 +0000"
+    },
+    "done": true
+  },
   "born_in_chaos_v1:junior_summoner": {
     "criteria": {
       "junior_summoner_0": "2025-04-25 10:49:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2025-04-25 10:54:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2025-04-25 10:54:01 +0000"
     },
     "done": true
   },
@@ -6272,6 +6355,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2025-04-25 11:13:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/quartz_pillar_from_quartz_block_stonecutting": {
     "criteria": {
       "has_quartz_block": "2025-04-25 10:39:29 +0000"
@@ -6281,6 +6370,12 @@
   "securitycraft:recipes/redstone/reinforced_observer": {
     "criteria": {
       "has_quartz": "2025-04-25 10:39:12 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/rose_quartz_block": {
+    "criteria": {
+      "has_rose_quartz_chunk": "2025-04-25 10:58:04 +0000"
     },
     "done": true
   },
@@ -6350,9 +6445,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2025-04-25 10:54:04 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/building_blocks/brimstone_bricks_from_brimstone_stonecutting": {
     "criteria": {
       "has_brimstone": "2025-04-25 10:38:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2025-04-25 10:58:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/snout_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-04-25 10:54:07 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/magma_cube": {
+    "criteria": {
+      "has_magma_cream": "2025-04-25 10:54:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2025-04-25 11:04:09 +0000"
     },
     "done": true
   },
@@ -6377,6 +6502,12 @@
   "minecraft:recipes/decorations/enchanting_table": {
     "criteria": {
       "has_obsidian": "2025-04-25 10:33:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2025-04-25 11:13:03 +0000"
     },
     "done": true
   },
