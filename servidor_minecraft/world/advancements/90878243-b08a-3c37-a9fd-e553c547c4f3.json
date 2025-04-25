@@ -156,12 +156,14 @@
       "erupting_inferno": "2025-04-25 10:59:58 +0000",
       "jade_cliffs": "2025-04-24 18:22:33 +0000",
       "crystalline_chasm": "2025-04-25 10:52:26 +0000",
+      "orchard": "2025-04-25 16:38:17 +0000",
       "lavender_forest": "2025-04-24 19:38:08 +0000",
       "mediterranean_forest": "2025-04-24 23:05:15 +0000",
       "spider_nest": "2025-04-24 23:15:05 +0000",
       "visceral_heap": "2025-04-25 11:07:00 +0000",
       "lavender_field": "2025-04-24 19:35:16 +0000",
-      "grassland": "2025-04-24 19:17:49 +0000"
+      "grassland": "2025-04-24 19:17:49 +0000",
+      "prairie": "2025-04-25 16:38:06 +0000"
     },
     "done": false
   },
@@ -1598,11 +1600,13 @@
     "criteria": {
       "minecraft:snowy_slopes": "2025-04-24 21:12:50 +0000",
       "minecraft:sunflower_plains": "2025-04-24 21:16:10 +0000",
+      "minecraft:cherry_grove": "2025-04-25 17:55:29 +0000",
       "minecraft:river": "2025-04-24 19:08:11 +0000",
       "minecraft:stony_shore": "2025-04-24 19:04:39 +0000",
       "minecraft:jagged_peaks": "2025-04-24 20:52:45 +0000",
       "minecraft:flower_forest": "2025-04-24 21:15:17 +0000",
       "minecraft:deep_dark": "2025-04-24 19:56:25 +0000",
+      "minecraft:meadow": "2025-04-25 16:39:01 +0000",
       "minecraft:plains": "2025-04-24 20:52:48 +0000"
     },
     "done": false
@@ -5822,15 +5826,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+  "minecraft:adventure/ol_betsy": {
     "criteria": {
-      "has_polished_blackstone_bricks": "2025-04-25 11:30:28 +0000"
+      "shot_crossbow": "2025-04-25 11:22:54 +0000"
     },
     "done": true
   },
   "minecraft:adventure/shoot_arrow": {
     "criteria": {
       "shot_arrow": "2025-04-25 11:23:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-04-25 11:30:28 +0000"
     },
     "done": true
   },
@@ -5843,12 +5853,6 @@
   "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
     "criteria": {
       "has_polished_blackstone_bricks": "2025-04-25 11:30:28 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/ol_betsy": {
-    "criteria": {
-      "shot_crossbow": "2025-04-25 11:22:54 +0000"
     },
     "done": true
   },
@@ -5873,6 +5877,60 @@
   "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
     "criteria": {
       "has_polished_blackstone_bricks": "2025-04-25 11:30:28 +0000"
+    },
+    "done": true
+  },
+  "graveyard:graveyard/medium_graveyard": {
+    "criteria": {
+      "medium_graveyard": "2025-04-25 16:39:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-04-25 16:39:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-04-25 16:39:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_gold_block": {
+    "criteria": {
+      "has_raw_gold": "2025-04-25 16:39:57 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:the_wind_darkening": {
+    "criteria": {
+      "the_wind_darkening_0": "2025-04-25 16:44:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-04-25 17:52:01 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/baking/sea_salt": {
+    "criteria": {
+      "has_ingredient": "2025-04-25 17:52:01 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/food/dough": {
+    "criteria": {
+      "has_water": "2025-04-25 17:52:01 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/freezing/ice": {
+    "criteria": {
+      "has_ingredient": "2025-04-25 17:52:01 +0000"
     },
     "done": true
   },
