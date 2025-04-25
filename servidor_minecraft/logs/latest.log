@@ -5454,3 +5454,11 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [25Apr2025 11:17:05.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu joined the game
 [25Apr2025 11:17:06.014] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of kazuuuuuuuu (18)
 [25Apr2025 11:17:06.015] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to kazuuuuuuuu
+[25Apr2025 11:18:06.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Ractercito: Teleported Ractercito to kazuuuuuuuu]
+[25Apr2025 11:22:54.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu has made the advancement [Ol' Betsy]
+[25Apr2025 11:23:00.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu has made the advancement [Take Aim]
+[25Apr2025 11:23:32.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu was slain by Piglin Brute
+[25Apr2025 11:23:39.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kazuuuuuuuu: Teleported kazuuuuuuuu to Ractercito]
+[25Apr2025 11:24:51.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ractercito has made the advancement [Cover Me with Diamonds]
+[25Apr2025 11:25:43.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu blew up
+[25Apr2025 11:26:55.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kazuuuuuuuu: Teleported kazuuuuuuuu to Ractercito]
