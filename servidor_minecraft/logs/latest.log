@@ -5480,3 +5480,63 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [25Apr2025 17:59:17.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu was slain by Tiger
 [25Apr2025 18:00:23.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kazuuuuuuuu> podes dormir?
 [25Apr2025 18:00:33.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ractercito> no
+[25Apr2025 18:01:07.171] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[25Apr2025 18:01:17.380] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Skeleton Horse (vehicle of kazuuuuuuuu) moved too quickly! -2.4800582649491414,-1.0,9.649528701120062
+[25Apr2025 18:01:17.381] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ractercito moved too quickly! -3.5984230017588743,0.14168517272453407,9.527400074462776
+[25Apr2025 18:01:17.383] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Skeleton Horse (vehicle of kazuuuuuuuu) moved too quickly! -2.418797825524809,-1.0,10.066529071785908
+[25Apr2025 18:01:17.383] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Skeleton Horse (vehicle of kazuuuuuuuu) moved too quickly! -2.3574824848392897,0.0,10.483569215369926
+[25Apr2025 18:01:17.384] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Skeleton Horse (vehicle of kazuuuuuuuu) moved too quickly! -2.296137767583522,0.0,10.900630640649524
+[25Apr2025 18:01:17.386] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Skeleton Horse (vehicle of kazuuuuuuuu) moved too quickly! -2.2200213010997576,0.0,11.314950972023325
+[25Apr2025 18:01:17.386] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Skeleton Horse (vehicle of kazuuuuuuuu) moved too quickly! -2.179292897482913,0.40444446206092266,11.53664552068517
+[25Apr2025 18:01:17.389] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Skeleton Horse (vehicle of kazuuuuuuuu) moved too quickly! -2.1574999407443034,0.7160409294887558,11.655269853561776
+[25Apr2025 18:01:17.390] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Skeleton Horse (vehicle of kazuuuuuuuu) moved too quickly! -2.1380649813646997,0.9384661811354533,11.761059036669849
+[25Apr2025 18:01:17.392] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Skeleton Horse (vehicle of kazuuuuuuuu) moved too quickly! -2.12073288409046,1.0752513954791567,11.855401832884581
+[25Apr2025 18:01:17.393] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Skeleton Horse (vehicle of kazuuuuuuuu) moved too quickly! -2.105276119295832,1.1297879163962818,11.939536740973608
+[25Apr2025 18:01:17.395] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Skeleton Horse (vehicle of kazuuuuuuuu) moved too quickly! -2.0914917760547205,1.1053327906091255,12.014568254169944
+[25Apr2025 18:01:17.398] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Skeleton Horse (vehicle of kazuuuuuuuu) moved too quickly! -2.079198898398019,1.0050140858506609,12.081481359566851
+[25Apr2025 18:01:17.398] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Skeleton Horse (vehicle of kazuuuuuuuu) moved too quickly! -2.0693302939544154,0.8318359984301082,12.131415743151592
+[25Apr2025 18:01:17.401] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Skeleton Horse (vehicle of kazuuuuuuuu) moved too quickly! -2.0625177815257523,0.5886837585390055,12.166351049271952
+[25Apr2025 18:01:17.401] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Skeleton Horse (vehicle of kazuuuuuuuu) moved too quickly! -2.0597986926564253,0.2783283413072297,12.188299011424988
+[25Apr2025 18:01:17.402] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Skeleton Horse (vehicle of kazuuuuuuuu) moved too quickly! -2.064037083270044,0.0,12.19903613886936
+[25Apr2025 18:01:17.403] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Skeleton Horse (vehicle of kazuuuuuuuu) moved too quickly! -2.110894129228134,0.0,12.120586787256116
+[25Apr2025 18:01:17.457] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Skeleton Horse (vehicle of kazuuuuuuuu) moved wrongly! 1.6335924454922406
+[25Apr2025 18:01:17.497] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Skeleton Horse (vehicle of kazuuuuuuuu) moved wrongly! 1.3670998378936474
+[25Apr2025 18:01:17.527] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Skeleton Horse (vehicle of kazuuuuuuuu) moved wrongly! 1.1383504586572144
+[25Apr2025 18:01:17.570] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Skeleton Horse (vehicle of kazuuuuuuuu) moved wrongly! 1.0159512265984176
+[25Apr2025 18:01:17.618] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Skeleton Horse (vehicle of kazuuuuuuuu) moved wrongly! 0.8564935461990899
+[25Apr2025 18:01:17.686] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Skeleton Horse (vehicle of kazuuuuuuuu) moved wrongly! 0.7711709206605519
+[25Apr2025 18:01:17.751] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Skeleton Horse (vehicle of kazuuuuuuuu) moved wrongly! 0.7255164848845652
+[25Apr2025 18:01:17.801] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Skeleton Horse (vehicle of kazuuuuuuuu) moved wrongly! 0.7010877065520162
+[25Apr2025 18:01:17.861] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Skeleton Horse (vehicle of kazuuuuuuuu) moved wrongly! 0.6880163543235085
+[25Apr2025 18:01:17.900] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Skeleton Horse (vehicle of kazuuuuuuuu) moved wrongly! 0.6810221343607736
+[25Apr2025 18:02:32.764] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kazuuuuuuuu moved too quickly! 5.379509894181933,-7.768476202412984,3.5287954853074552
+[25Apr2025 18:02:32.778] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3363ms or 67 ticks behind
+[25Apr2025 18:05:34.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kazuuuuuuuu> el stalker no me hace nada
+[25Apr2025 18:06:18.865] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=432, y=72, z=-1085}
+[25Apr2025 18:06:26.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu has made the advancement [Deceived Hopes]
+[25Apr2025 18:06:45.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kazuuuuuuuu died
+[25Apr2025 18:06:49.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kazuuuuuuuu> hay bichos q
+[25Apr2025 18:06:52.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kazuuuuuuuu> te sacan el minerla
+[25Apr2025 18:06:53.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ractercito was slain by Corrupted Vindicator
+[25Apr2025 18:06:53.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kazuuuuuuuu> o sea
+[25Apr2025 18:06:57.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kazuuuuuuuu> los minerales osn bichos
+[25Apr2025 18:06:58.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ractercito> QUE
+[25Apr2025 18:07:02.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ractercito> nono
+[25Apr2025 18:07:03.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kazuuuuuuuu> q
+[25Apr2025 18:07:10.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kazuuuuuuuu> tengo un diamond termine
+[25Apr2025 18:07:11.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kazuuuuuuuu> te
+[25Apr2025 18:07:14.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ractercito> la dungeon de antes continua
+[25Apr2025 18:07:25.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kazuuuuuuuu> qee
+[25Apr2025 18:07:26.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kazuuuuuuuu> voy
+[25Apr2025 18:07:26.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ractercito> la de las tumbas y eso
+[25Apr2025 18:07:33.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kazuuuuuuuu: Teleported kazuuuuuuuu to Ractercito]
+[25Apr2025 18:07:54.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kazuuuuuuuu> en donde
+[25Apr2025 18:08:03.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ractercito> seguime
+[25Apr2025 18:08:56.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ractercito has made the advancement [Deceived Hopes]
+[25Apr2025 18:09:03.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kazuuuuuuuu: Teleported kazuuuuuuuu to Ractercito]
+[25Apr2025 18:09:08.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kazuuuuuuuu> te dije
+[25Apr2025 18:09:10.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kazuuuuuuuu> bichos
+[25Apr2025 18:10:06.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kazuuuuuuuu> esperame
+[25Apr2025 18:10:18.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [kazuuuuuuuu: Teleported kazuuuuuuuu to Ractercito]
+[25Apr2025 18:10:54.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kazuuuuuuuu> no es la misma?
+[25Apr2025 18:11:22.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kazuuuuuuuu> mira esto
