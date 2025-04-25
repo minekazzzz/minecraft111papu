@@ -154,6 +154,7 @@
       "shrubland": "2025-04-24 18:21:58 +0000",
       "rocky_shrubland": "2025-04-24 19:08:00 +0000",
       "jade_cliffs": "2025-04-24 18:22:33 +0000",
+      "crystalline_chasm": "2025-04-25 10:52:26 +0000",
       "lavender_forest": "2025-04-24 19:38:08 +0000",
       "mediterranean_forest": "2025-04-24 23:05:15 +0000",
       "spider_nest": "2025-04-24 23:15:05 +0000",
@@ -1808,6 +1809,7 @@
       "minecraft:vindicator": "2025-04-24 23:41:57 +0000",
       "minecraft:spider": "2025-04-24 19:59:18 +0000",
       "minecraft:cave_spider": "2025-04-24 23:15:19 +0000",
+      "minecraft:piglin": "2025-04-25 10:46:01 +0000",
       "minecraft:zombie": "2025-04-24 19:12:07 +0000"
     },
     "done": false
@@ -5395,6 +5397,7 @@
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:nether_wastes": "2025-04-25 10:37:37 +0000",
+      "minecraft:soul_sand_valley": "2025-04-25 10:46:36 +0000",
       "minecraft:basalt_deltas": "2025-04-25 10:38:09 +0000"
     },
     "done": false
@@ -5438,6 +5441,12 @@
   "minecraft:recipes/decorations/soul_torch": {
     "criteria": {
       "has_soul_sand": "2025-04-25 10:43:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2025-04-25 10:47:46 +0000"
     },
     "done": true
   },
@@ -5561,6 +5570,12 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/building_blocks/rose_quartz_block": {
+    "criteria": {
+      "has_rose_quartz_chunk": "2025-04-25 10:51:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-04-25 10:42:50 +0000"
@@ -5648,6 +5663,12 @@
   "nethersdelight:recipes/decorations/blackstone_furnace": {
     "criteria": {
       "has_blackstone": "2025-04-25 10:42:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2025-04-25 10:52:42 +0000"
     },
     "done": true
   },
